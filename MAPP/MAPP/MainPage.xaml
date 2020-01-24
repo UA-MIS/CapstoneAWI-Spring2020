@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:MAPP"
+            mc:Ignorable="d"
+             Title="Marine Application Platform"
+             x:Class="MAPP.TabbedPage1"
+>
+  <!--Pages can be added as references or inline-->
+  <!--  <TabbedPage.BarBackgroundColor>
+        <Color x:Uid="colorPrimary">#5d7772</Color>
+    </TabbedPage.BarBackgroundColor>
+    
+    <TabbedPage.BarTextColor>
+        <Color x:Uid="colorPrimary">#ffffff</Color>
+    </TabbedPage.BarTextColor>
+
+    <TabbedPage.UnselectedTabColor>
+        <Color x:Uid="colorPrimary">#5d7772</Color>
+    </TabbedPage.UnselectedTabColor>
+
+    <TabbedPage.SelectedTabColor>
+        <Color x:Uid="colorPrimary">#B6E2D3</Color>
+    </TabbedPage.SelectedTabColor> -->
+
+    <TabbedPage.BarBackgroundColor>
+        <Color x:Uid="colorPrimary">#5d7772</Color>
+    </TabbedPage.BarBackgroundColor>
+
+    <TabbedPage.BarTextColor>
+        <Color x:Uid="colorPrimary">#B6E2D3</Color>
+    </TabbedPage.BarTextColor>
+
+   <!-- <TabbedPage.UnselectedTabColor>
+        <Color x:Uid="colorPrimary">#B6E2D3</Color>
+    </TabbedPage.UnselectedTabColor>-->
+
+    <TabbedPage.SelectedTabColor>
+        <Color x:Uid="colorPrimary">#B6E2D3</Color>
+    </TabbedPage.SelectedTabColor>
+<!--
+    <TabbedPage.Children>
+        <NavigationPage Title="Map View" IsVisible="True" BarTextColor="Black">
+            <x:Arguments>
+                <local:Page1 Title="Map View" IsVisible="True"/> 
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Weather" IsVisible="True">
+            <x:Arguments>
+                <local:Page2 Title="Weather" IsVisible="True"/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Safety" IsVisible="True">
+            <x:Arguments>
+                <local:Page3 Title="Safety"/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Regulations" IsVisible="True">
+            <x:Arguments>
+                <local:Page4 Title="Regulations"/>
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+-->
+</TabbedPage>

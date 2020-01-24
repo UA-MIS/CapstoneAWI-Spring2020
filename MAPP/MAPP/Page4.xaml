@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+         	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+         	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+         	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         	mc:Ignorable="d"
+         	x:Class="MAPP.Page4" Padding="10,0" >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid x:Name="ButtonLayout" VerticalOptions="Fill" Padding="10,10,10,10" Margin="10,10,10,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="100"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="SaltButton" Text="Saltwater Fishing" FontSize="Large" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" Grid.Row="0" Grid.Column="0"/>
+                    <Button x:Name="BlankButton1" Text="Saltwater Fishing" BorderColor= "#5d7772" BackgroundColor="White" TextColor="White" Grid.Row="1" Grid.Column="0"/>
+                    <Button x:Name="FreshButton" Text="Freshwater Fishing" FontSize="Large" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" Grid.Row="2" Grid.Column="0" />
+                    <Button x:Name="BlankButton2" Text="Freshwater Fishing"  BorderColor= "#5d7772" BackgroundColor="White" TextColor="White" Grid.Row="3" Grid.Column="0" />
+                    <Button x:Name="LicensesButton" Text="Licensing" FontSize="Large" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" Grid.Row="4" Grid.Column="0" />
+                </Grid>
+                <StackLayout x:Name="BackButtonLayout" Padding="10,10,10,10" Margin="10,10,10,10">
+                    <Button x:Name="BackButton" FontSize="Medium" Text="Go Back" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" Grid.Row="6" Grid.Column="0"/>
+                </StackLayout>
+                <ScrollView>
+                    <StackLayout x:Name="RegulationsTextLayout">
+                    </StackLayout>
+                </ScrollView>
+                <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="End" x:Name="DisclaimerLayout">
+                    <StackLayout x:Name="DisclaimerTextLayout">
+                    </StackLayout>
+                </RelativeLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAP", "test3\MAP.csproj", "{EE30262D-2D5D-4710-A408-117C29C22B5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE30262D-2D5D-4710-A408-117C29C22B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE30262D-2D5D-4710-A408-117C29C22B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE30262D-2D5D-4710-A408-117C29C22B5B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EE30262D-2D5D-4710-A408-117C29C22B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE30262D-2D5D-4710-A408-117C29C22B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE30262D-2D5D-4710-A408-117C29C22B5B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4030989-6888-4BAB-86A5-9A040BBD3927}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:esriUI="clr-namespace:Esri.ArcGISRuntime.Xamarin.Forms;assembly=Esri.ArcGISRuntime.Xamarin.Forms"
+             mc:Ignorable="d"
+             x:Class="MAPP.Page2">
+    <ContentPage.Content>
+        <StackLayout x:Name="WeatherMainLayout">
+
+
+                <Label Text="Click on the map to recieve the latest forecast for that area" FontSize="12" FontAttributes="Bold" HeightRequest="20" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <esriUI:MapView x:Name="MyMapView" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" Grid.RowSpan="3" HeightRequest="150"/>
+
+
+            <ScrollView x:Name="WeatherResultsScrollView" Padding="10,10,10,10">
+                <StackLayout x:Name="WeatherResultsLayout">
+
+                    <Label x:Name="Warning" TextColor="Red" FontSize="16" FontAttributes="Bold" IsVisible="False"/>
+                    <Label x:Name="LastUpdated" TextColor="Black" FontSize="16"/>
+                    <Label x:Name="SynopsisHeader" Text="Synopsis" TextColor="Black" FontSize="18" FontAttributes="Bold" IsVisible="False"/>
+                    <Label x:Name="SynopsisText" TextColor="Black" FontSize="16"/>
+                    <Label x:Name="ForecastHeader" Text="Detailed Forecast" TextColor="Black" FontSize="18" FontAttributes="Bold" IsVisible="False"/>
+
+                    <Grid x:Name="WeatherResultsGridLayout">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="85"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label x:Name="TitleOne" Grid.Row="0" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+                        <Label x:Name="TitleTwo" Grid.Row="1" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+                        <Label x:Name="TitleThree" Grid.Row="2" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+                        <Label x:Name="TitleFour" Grid.Row="3" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+                        <Label x:Name="TitleFive" Grid.Row="4" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+                        <Label x:Name="TitleSix" Grid.Row="5" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+                        <Label x:Name="TitleSeven" Grid.Row="6" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+                        <Label x:Name="TitleEight" Grid.Row="7" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+                        <Label x:Name="TitleNine" Grid.Row="8" Grid.Column="0" TextColor="Black" FontSize="14" FontAttributes="Bold"/>
+
+                        <Label x:Name="ContentOne" Grid.Row="0" Grid.Column="1" TextColor="Black" FontSize="14"  LineBreakMode="WordWrap"/>
+                        <Label x:Name="ContentTwo" Grid.Row="1" Grid.Column="1" TextColor="Black" FontSize="14"  LineBreakMode="WordWrap"/>
+                        <Label x:Name="ContentThree" Grid.Row="2" Grid.Column="1" TextColor="Black" FontSize="14" LineBreakMode="WordWrap"/>
+                        <Label x:Name="ContentFour" Grid.Row="3" Grid.Column="1" TextColor="Black" FontSize="14" LineBreakMode="WordWrap"/>
+                        <Label x:Name="ContentFive" Grid.Row="4" Grid.Column="1" TextColor="Black" FontSize="14" LineBreakMode="WordWrap"/>
+                        <Label x:Name="ContentSix" Grid.Row="5" Grid.Column="1" TextColor="Black" FontSize="14" LineBreakMode="WordWrap"/>
+                        <Label x:Name="ContentSeven" Grid.Row="6" Grid.Column="1" TextColor="Black" FontSize="14" LineBreakMode="WordWrap"/>
+                        <Label x:Name="ContentEight" Grid.Row="7" Grid.Column="1" TextColor="Black" FontSize="14" LineBreakMode="WordWrap"/>
+                        <Label x:Name="ContentNine" Grid.Row="8" Grid.Column="1" TextColor="Black" FontSize="14" LineBreakMode="WordWrap"/>
+                        
+                    </Grid>
+
+                    <Label x:Name="MoreInfoText" Text="For more information, please visit" TextColor="Black" FontSize="16" IsVisible="False"/>
+                    <Label x:Name="MoreInfoURL" TextColor="Blue" FontSize="16"/>
+                    
+                </StackLayout>
+            </ScrollView>
+         
+         
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MAPP.Page3" Padding="10,0">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+
+                <Grid x:Name="ButtonLayout">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="10" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="10" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <Button x:Name="PfdButton" Text="Personal Flotation Devices" BorderColor= "#5d7772" FontSize="Medium" BackgroundColor="#5d7772" TextColor="White" Grid.Row="1" Grid.Column="1" />
+                    <Button x:Name="FlameButton" Text="Flame Arrestors" BorderColor= "#5d7772" BackgroundColor="#5d7772" FontSize="Medium" TextColor="White" Grid.Row="1" Grid.Column="3"/>
+                    <Button x:Name="CutOffButton" Text="Emergency Cut-Off Switch" BorderColor= "#5d7772" BackgroundColor="#5d7772" FontSize="Medium" TextColor="White" Grid.Row="2" Grid.Column="1" />
+                    <Button x:Name="DitchBagButton" Text="Ditch Bags" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" FontSize="Medium" Grid.Row="2" Grid.Column="3" />
+                    <Button x:Name="FedButton" Text="Federally Controlled Waters" BorderColor= "#5d7772" BackgroundColor="#5d7772" FontSize="Medium" TextColor="White" Grid.Row="3" Grid.Column="1" />
+                    <Button x:Name="FireButton" Text="Fire Extinguishers" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" FontSize="Medium" Grid.Row="3" Grid.Column="3" />
+                    <Button x:Name="DiverButton" Text="Diver's Flag" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" FontSize="Medium" Grid.Row="4" Grid.Column="1" />
+                    <Button x:Name="LightButton" Text="Lights and Sound Devices" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" FontSize="Medium" Grid.Row="4" Grid.Column="3"/>
+                    <Button x:Name="DistressButton" Text="Visual Distress Signals" BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" FontSize="Medium" Grid.Row="5" Grid.Column="1"/>
+                    <Button x:Name="CoastGuardButton" Text="Coast Guard Emergency Contact " BorderColor= "#5d7772" BackgroundColor="#5d7772" TextColor="White" FontSize="Medium" Grid.Row="5" Grid.Column="3"/>
+                </Grid>
+
+                <StackLayout x:Name="BackButtonLayout" Padding="10,10,10,10" Margin="10,10,10,10">
+                    <Button x:Name="BackButton" Text="Go Back" BorderColor= "#5d7772" FontSize="Medium" BackgroundColor="#5d7772" TextColor="White" />
+                </StackLayout>
+
+                <ScrollView>
+                    <StackLayout x:Name="TextLayout">
+
+                    </StackLayout>
+                </ScrollView>
+
+
+                <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="End" x:Name="DisclaimerLayout">
+                    <StackLayout x:Name="DisclaimerTextLayout">
+
+                    </StackLayout>
+                </RelativeLayout>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:esriUI="clr-namespace:Esri.ArcGISRuntime.Xamarin.Forms;assembly=Esri.ArcGISRuntime.Xamarin.Forms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MAPP.Page1">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="150" />
+                    <RowDefinition Height="150" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="5" />
+                </Grid.ColumnDefinitions>
+
+
+                
+
+
+                
+                <esriUI:MapView x:Name="MyMapView" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" Grid.RowSpan="6"/>
+
+                <RelativeLayout Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" HorizontalOptions="Start" VerticalOptions="Start">
+                    <Grid x:Name="PickerGrid" BackgroundColor="White">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1" />
+                            <RowDefinition Height="35"/>
+                            <RowDefinition Height="1" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1"/>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="1"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="Black"/>
+                        <Label Grid.Row="0" Grid.Column="3" Grid.RowSpan="3" BackgroundColor="Black"/>
+                        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="Black"/>
+                        <Label Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" BackgroundColor="Black"/>
+
+
+                        <Picker x:Name="MapOptionsLayout" HorizontalOptions="CenterAndExpand" Title="Select a Map Overlay" TitleColor="Black" Grid.Row="1" Grid.Column="1" FontSize="12" TextColor="Black" BackgroundColor="White">
+                        </Picker>
+                    </Grid>
+                </RelativeLayout>
+
+                <RelativeLayout Grid.Column="5" Grid.Row="4">
+
+                    <Grid x:Name="LegendLayout" BackgroundColor="White" Grid.Column="5" Grid.Row="4" ColumnSpacing="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1" />
+                            <RowDefinition Height="1" />
+                            <RowDefinition Height="16" />
+                            <RowDefinition Height="2"/>
+                            <RowDefinition Height="10" />
+                            <RowDefinition Height="10" />
+                            <RowDefinition Height="1" />
+                            <RowDefinition Height="13" />
+                            <RowDefinition Height="1" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="1"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label x:Name="LegendLabel" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="9" TextColor="Black" FontSize="10" FontAttributes="Bold" BackgroundColor="White" HorizontalTextAlignment="Center"/>
+                        <Label x:Name="LegendMetricLabel" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="9" TextColor="Black" FontSize="9" BackgroundColor="White" HorizontalTextAlignment="Center"/>
+                        <BoxView x:Name="Box1" Grid.Row="4" Grid.Column="2" BackgroundColor="White"/>
+                        <Label x:Name="MetricLabel1" HorizontalOptions="Center" Grid.Row="5" Grid.Column="2" TextColor="Black" FontSize="8" BackgroundColor="White"/>
+                        <BoxView x:Name="Box2" Grid.Row="4" Grid.Column="3"  BackgroundColor="White"/>
+                        <Label x:Name="MetricLabel2" HorizontalOptions="Center" Grid.Row="5" Grid.Column="3"  TextColor="Black" FontSize="8" BackgroundColor="White"/>
+                        <BoxView x:Name="Box3" Grid.Row="4" Grid.Column="4" BackgroundColor="White"/>
+                        <Label x:Name="MetricLabel3" HorizontalOptions="Center" Grid.Row="5" Grid.Column="4" TextColor="Black" FontSize="8" BackgroundColor="White"/>
+                        <BoxView x:Name="Box4" Grid.Row="4" Grid.Column="5" BackgroundColor="White"/>
+                        <Label x:Name="MetricLabel4" HorizontalOptions="Center" Grid.Row="5" Grid.Column="5" TextColor="Black" FontSize="8" BackgroundColor="White"/>
+                        <BoxView x:Name="Box5" Grid.Row="4" Grid.Column="6" BackgroundColor="White" />
+                        <Label x:Name="MetricLabel5" HorizontalOptions="Center" Grid.Row="5" Grid.Column="6" TextColor="Black" FontSize="8" BackgroundColor="White"/>
+                        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="8" BackgroundColor="Black"/>
+                        <Label Grid.Row="0" Grid.Column="8" Grid.RowSpan="9" BackgroundColor="Black"/>
+                        <Label Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="8" BackgroundColor="Black"/>
+                        <Label Grid.Row="0" Grid.Column="0" Grid.RowSpan="9" BackgroundColor="Black"/>
+                    </Grid>
+
+                   
+                </RelativeLayout>
+
+
+                
+
+
+
+
+
+            </Grid>
+            <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+
+                <Button x:Name="WindButton" FontAttributes="Bold" Text="Wind" FontSize="Default" RelativeLayout.XConstraint="{ConstraintExpression 
+            Type=RelativeToParent,Property=Width,Factor=.0000,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=.14,Constant=0}" BorderWidth="1" BorderColor="#5d7772" Margin="1" BackgroundColor="White" TextColor="#5d7772" />
+
+
+                <Button x:Name="WaveButton" FontAttributes="Bold" Text="Waves" FontSize="Default" RelativeLayout.XConstraint="{ConstraintExpression 
+            Type=RelativeToParent,Property=Width,Factor=.14,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=.17,Constant=0}" BorderWidth="1" BorderColor="#5d7772" Margin="1" BackgroundColor="White" TextColor="#5d7772" />
+
+                <Button x:Name="WaterButton" FontAttributes="Bold" Text="Temperature" FontSize="Default" BorderWidth="1" BorderColor="#5d7772" Margin="1" RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=.31,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=.27,Constant=0}"  BackgroundColor="White" TextColor="#5d7772" />
+
+                <Button x:Name="ChlorophyllButton" FontAttributes="Bold" Text="Chlorophyll" FontSize="Default" BorderWidth="1" BorderColor="#5d7772" Margin="1" RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=.58,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=.26,Constant=0}"  BackgroundColor="White" TextColor="#5d7772"/>
+
+                <Button x:Name="ReefButton" Text="Reefs" FontAttributes="Bold" FontSize="Default" RelativeLayout.XConstraint="{ConstraintExpression 
+            Type=RelativeToParent,Property=Width,Factor=.84,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=.16,Constant=0}" BorderWidth="1" BorderColor="#5d7772" Margin="1" BackgroundColor="White" TextColor="#5d7772"/>
+
+          
+
+          
+        </RelativeLayout>
+            
+            
+
+          
+
+        </Grid>
+
+
+
+    </ContentPage.Content>
+    
+  
+    
+</ContentPage>

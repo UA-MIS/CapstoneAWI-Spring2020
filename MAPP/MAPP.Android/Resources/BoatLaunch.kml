@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled map</name>
+    <description/>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>boat_launch</name>
+      <Placemark>
+        <name>Lillian Boat Launch</name>
+        <description><![CDATA[Lillian Boat Launch    <br>       <br>   FID   0    <br>   Region   BwinE    <br>   Date_Visit   2/15/2013    <br>   Site_Name   Lillian Boat Launch    <br>   Signed_Nam   Lillian Boat Launch    <br>   Previous_M       <br>   Trail_Map       <br>   LAT   30.405992    <br>   LONG   -87.438168    <br>   Property_O   Baldwin County    <br>   Address   7th Street south of CR 99    <br>   City   Lillian    <br>   County   Baldwin    <br>   Zip   36549    <br>   Water_Body   Perdido Bay    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   N    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   CIAP    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.438168,30.405992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seminole Boat Ramp</name>
+        <description><![CDATA[Seminole Boat Ramp    <br>       <br>   FID   1    <br>   Region   BwinE    <br>   Date_Visit   2/15/2013    <br>   Site_Name   Seminole Boat Ramp    <br>   Signed_Nam   Seminole Boat Ramp    <br>   Previous_M       <br>   Trail_Map       <br>   LAT   30.508363    <br>   LONG   -87.446057    <br>   Property_O   Baldwin County    <br>   Address   River Landing Road    <br>   City   Seminole    <br>   County   Baldwin    <br>   Zip   36574    <br>   Water_Body   Perdido River    <br>   Charge   N    <br>   Hours   24 Hours    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   NP    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   N    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info   Fence and bulkhead in need of repair    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.446057,30.508363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Josephine Park and Boat Launch</name>
+        <description><![CDATA[Josephine Park and Boat Launch    <br>       <br>   FID   2    <br>   Region   BwinS    <br>   Date_Visit   3/12/2013    <br>   Site_Name   Josephine Park and Boat Launch    <br>   Signed_Nam   Josephine Park    <br>   Previous_M   Map 73    <br>   Trail_Map       <br>   LAT   30.326647    <br>   LONG   -87.533362    <br>   Property_O   Baldwin County/State of AL    <br>   Address   Josephine Drive, west of Marjon Lane/Wolf Field Road    <br>   City   Elberta    <br>   County   Baldwin    <br>   Zip   36530    <br>   Water_Body   Arnica Bay    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Small    <br>   Beach_Type   Marsh    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   CZM    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje   Y    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.533362,30.326647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meaher State Park</name>
+        <description><![CDATA[Meaher State Park    <br>       <br>   FID   3    <br>   Region   Cway    <br>   Date_Visit   3/1/2013    <br>   Site_Name   Meaher State Park    <br>   Signed_Nam   Meaher State Park    <br>   Previous_M   Map 23    <br>   Trail_Map   ACBT, EST    <br>   LAT   30.66917    <br>   LONG   -87.93565    <br>   Property_O   State of AL    <br>   Address   5200 Battleship Parkway East    <br>   City   Spanish Fort    <br>   County   Baldwin    <br>   Zip   36527    <br>   Water_Body   Mobile Bay    <br>   Charge   Y    <br>   Hours   24 hours (Campground), 7-Sundown (Day vistors)    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Marsh    <br>   Restroom   Y    <br>   Water_Fauc   Y    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   Y    <br>   Boat_Renta   N    <br>   Playground   Y    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info   Launch fee: $3.00 or $30 annual, Admission Fee: $1 12-61, all other $0.50    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.93565,30.66917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chacaloochee (Chacolatta) Bay Boat Launch</name>
+        <description><![CDATA[Chacaloochee (Chacolatta) Bay Boat Launch    <br>       <br>   FID   4    <br>   Region   Cway    <br>   Date_Visit   1/17/2013    <br>   Site_Name   Chacaloochee (Chacolatta) Bay Boat Launch    <br>   Signed_Nam   NONE    <br>   Previous_M   Map 22    <br>   Trail_Map   EST    <br>   LAT   30.679386    <br>   LONG   -87.992705    <br>   Property_O   State of AL    <br>   Address   Battleship Parkway between Tensaw River Boat Launch and I-10 crossing at Exit 30    <br>   City   Spanish Fort    <br>   County   Baldwin    <br>   Zip   36527    <br>   Water_Body   Chacaloochee Bay    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   3    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   N    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   N    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info   Just west of I-10 onramp    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.992705,30.679386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tensaw River Boat Launch</name>
+        <description><![CDATA[Tensaw River Boat Launch    <br>       <br>   FID   5    <br>   Region   Cway    <br>   Date_Visit   1/17/2013    <br>   Site_Name   Tensaw River Boat Launch    <br>   Signed_Nam   NONE    <br>   Previous_M   Map 21    <br>   Trail_Map   EST    <br>   LAT   30.681796    <br>   LONG   -88.004923    <br>   Property_O   State of AL    <br>   Address   Battleship Parkway just east of Battleship Memorial Park    <br>   City   Spanish Fort    <br>   County   Baldwin    <br>   Zip   36527    <br>   Water_Body   Tensaw River, Spanish River    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Small    <br>   Beach_Type   None    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   N    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   N    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info   Just west of Tacky Jacks    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.004923,30.681796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Theo F. "Ted" Middleton, Jr. Landing (Liz Haven)]]></name>
+        <description><![CDATA[Theo F. "Ted" Middleton, Jr. Landing (Liz Haven)    <br>       <br>   FID   6    <br>   Region   Cway    <br>   Date_Visit   1/17/2013    <br>   Site_Name   Theo F. "Ted" Middleton, Jr. Landing (Liz Haven)    <br>   Signed_Nam   Theo F. "Ted" Middleton, Jr. Landing    <br>   Previous_M       <br>   Trail_Map   EST    <br>   LAT   30.687065    <br>   LONG   -88.013769    <br>   Property_O   State of AL    <br>   Address   Battleship Parkway across from Battleship Memorial Park    <br>   City   Mobile    <br>   County   Mobile    <br>   Zip   36610    <br>   Water_Body   Polecat Bay, Spanish River    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   N    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   N    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   CZM    <br>   Other_Info   Across from battleship    <br>   Reason_To_       <br>   306a_Proje   Y (2012)    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.013769,30.687065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Carpenter Station Cliff's Landing Public Park and Boat Launch]]></name>
+        <description><![CDATA[Carpenter Station Cliff's Landing Public Park and Boat Launch    <br>       <br>   FID   7    <br>   Region   Delta    <br>   Date_Visit   4/5/2013    <br>   Site_Name   Carpenter Station Cliff's Landing Public Park and Boat Launch    <br>   Signed_Nam   Carpenter Station Cliff's Landing Public Park and Boat Launch    <br>   Previous_M   Map 27    <br>   Trail_Map   ACBT    <br>   LAT   30.86382    <br>   LONG   -87.89517    <br>   Property_O   Baldwin County    <br>   Address   West end of Cliffs Landing Road (Cliff Landing Rd)    <br>   City   Bay Minette    <br>   County   Baldwin    <br>   Zip   36507    <br>   Water_Body   Tensaw River    <br>   Charge   N    <br>   Hours   24 Hours    <br>   Hard_Surfa   Y (2)    <br>   Boat_Lanes   3 launch, 1 exit    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Rocky    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   NP    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info   USA National Recreation Trail and National Water Trail    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.89517,30.86382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Byrne's Lake Public Boat Launch]]></name>
+        <description><![CDATA[Byrne's Lake Public Boat Launch    <br>       <br>   FID   8    <br>   Region   Delta    <br>   Date_Visit   4/5/2013    <br>   Site_Name   Byrne's Lake Public Boat Launch    <br>   Signed_Nam   Byrne's Lake Public Boat Launch    <br>   Previous_M   Map 28    <br>   Trail_Map       <br>   LAT   30.792931    <br>   LONG   -87.89996    <br>   Property_O   Baldwin County    <br>   Address   West end of Byrne's Lake Road    <br>   City   Bay Minette    <br>   County   Baldwin    <br>   Zip   36507    <br>   Water_Body   Byrne's Lake to Tensaw River    <br>   Charge   N    <br>   Hours   24 Hours    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Limited    <br>   Beach_Type   None    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   NP    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.89996,30.792931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Live Oak Landing</name>
+        <description><![CDATA[Live Oak Landing    <br>       <br>   FID   9    <br>   Region   Delta    <br>   Date_Visit   4/2/2013    <br>   Site_Name   Live Oak Landing    <br>   Signed_Nam   Live Oak Landing    <br>   Previous_M       <br>   Trail_Map       <br>   LAT   30.95816    <br>   LONG   -87.858192    <br>   Property_O   Baldwin County    <br>   Address   AL-225 at Live Oak Road    <br>   City   Stockton    <br>   County   Baldwin    <br>   Zip   36579    <br>   Water_Body   Tensaw River    <br>   Charge   Y    <br>   Hours   4am-8pm    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   3    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Small    <br>   Beach_Type   None    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   NP    <br>   Pier   N    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   Y    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info   $5 Launch Fee for boats on trailer    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.858192,30.95816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Billy Goat Hole Ramps Alonzo Landing</name>
+        <description><![CDATA[Billy Goat Hole Ramps Alonzo Landing    <br>       <br>   FID   10    <br>   Region   DI    <br>   Date_Visit   1/24/2013    <br>   Site_Name   Billy Goat Hole Ramps Alonzo Landing    <br>   Signed_Nam   Billy Goat Hole Ramps Alonzo Landing    <br>   Previous_M   Map 6    <br>   Trail_Map   ACC, DIBT    <br>   LAT   30.251462    <br>   LONG   -88.08156    <br>   Property_O   Dauphin Island    <br>   Address   Bienville Blvd    <br>   City   Dauphin Island    <br>   County   Mobile    <br>   Zip   36528    <br>   Water_Body   Mobile Bay    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   4    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Small    <br>   Beach_Type   None    <br>   Restroom   N    <br>   Water_Fauc   Y    <br>   Picinic_Ar   N    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   N    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info   Note that Billy Goat Hole Alonzo Landing, Mobile Bay Ferry Landing, and Saw Grass Point are adjacent to each other and share parking.    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.08156,30.251462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Billy Goat Hole Boat Launch at East End Landing</name>
+        <description><![CDATA[Little Billy Goat Hole Boat Launch at East End Landing    <br>       <br>   FID   11    <br>   Region   DI    <br>   Date_Visit   1/22/2013    <br>   Site_Name   Little Billy Goat Hole Boat Launch at East End Landing    <br>   Signed_Nam   Little Billy Goat Hole    <br>   Previous_M   Map 4    <br>   Trail_Map   ACC, DIBT    <br>   LAT   30.25006    <br>   LONG   -88.076404    <br>   Property_O   DIPBB    <br>   Address   51 Bienville Blvd    <br>   City   Dauphin Island    <br>   County   Mobile    <br>   Zip   36528    <br>   Water_Body   Mobile Bay    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Rocky    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   CZM, CIAP    <br>   Other_Info   Little Billy Goat Hole includes a boat launch and fishing pier.  It is part of East End Landing.    <br>   Reason_To_       <br>   306a_Proje   Y (2003)    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.076404,30.25006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[May Day Park (Starke's Landing)]]></name>
+        <description><![CDATA[May Day Park (Starke's Landing)    <br>       <br>   FID   12    <br>   Region   ESD    <br>   Date_Visit   1/18/2013    <br>   Site_Name   May Day Park (Starke's Landing)    <br>   Signed_Nam   May Day Park    <br>   Previous_M   Map 31    <br>   Trail_Map   ACC    <br>   LAT   30.599504    <br>   LONG   -87.911803    <br>   Property_O   Daphne    <br>   Address   West end of College Avenue    <br>   City   Daphne    <br>   County   Baldwin    <br>   Zip   36526    <br>   Water_Body   Mobile Bay    <br>   Charge   N    <br>   Hours   DawnDusk    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Sandy    <br>   Restroom   Y    <br>   Water_Fauc   Y    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   Y    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   Y    <br>   Leashed_Pe   Y    <br>   Handicap_P   Y    <br>   Recognitio   N (306a Site)    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje   Y (2007)    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.911803,30.599504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pier Street Boat Ramp</name>
+        <description><![CDATA[Pier Street Boat Ramp    <br>       <br>   FID   13    <br>   Region   ESF    <br>   Date_Visit   2/26/2013    <br>   Site_Name   Pier Street Boat Ramp    <br>   Signed_Nam   Pier Street Boat Ramp    <br>   Previous_M   Map 35    <br>   Trail_Map   ACC, EST    <br>   LAT   30.517817    <br>   LONG   -87.915695    <br>   Property_O   Fairhope    <br>   Address   1 Pier Ave    <br>   City   Fairhope    <br>   County   Baldwin    <br>   Zip   36532    <br>   Water_Body   Mobile Bay    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Small    <br>   Beach_Type   Sandy    <br>   Restroom   Y    <br>   Water_Fauc   Y    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   CZM    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje   Y (2004)    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.915695,30.517817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Pines Fishing Pier and Boat Launch</name>
+        <description><![CDATA[The Pines Fishing Pier and Boat Launch    <br>       <br>   FID   14    <br>   Region   FM    <br>   Date_Visit   5/28/2013    <br>   Site_Name   The Pines Fishing Pier and Boat Launch    <br>   Signed_Nam   Pines Public Boat Access    <br>   Previous_M   Map 50    <br>   Trail_Map   ACBT, ACC    <br>   LAT   30.23905    <br>   LONG   -87.89011    <br>   Property_O   Baldwin County    <br>   Address   Fort Morgan Road (AL-180), 12.6 miles west of Gulf Shores Parkway (AL-59)    <br>   City   Gulf Shores    <br>   County   Baldwin    <br>   Zip   36542    <br>   Water_Body   Bon Secour Bay    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Limited    <br>   Beach_Type   Rocky    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.89011,30.23905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Morgan Fishing Pier and Boat Ramp</name>
+        <description><![CDATA[Fort Morgan Fishing Pier and Boat Ramp    <br>       <br>   FID   15    <br>   Region   FM    <br>   Date_Visit   5/28/2013    <br>   Site_Name   Fort Morgan Fishing Pier and Boat Ramp    <br>   Signed_Nam   Fort Morgan Public Boat Access Boat Launching    <br>   Previous_M   Map 47    <br>   Trail_Map   ACC    <br>   LAT   30.231494    <br>   LONG   -88.017778    <br>   Property_O   State of AL    <br>   Address   Fort Morgan Road (AL-180), 20.4 miles west of Gulf Shores Parkway (AL-59)    <br>   City   Gulf Shores    <br>   County   Baldwin    <br>   Zip   36542    <br>   Water_Body   Mobile Bay    <br>   Charge   Y    <br>   Hours   8-5    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Sandy    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   Y    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   Y    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info   http://preserveala.org/fortmorgan.aspx    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.017778,30.231494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gulf State Park Boat Launch and Nature Center (Middle Lake Park)</name>
+        <description><![CDATA[Gulf State Park Boat Launch and Nature Center (Middle Lake Park)    <br>       <br>   FID   16    <br>   Region   GS    <br>   Date_Visit   4/18/2013    <br>   Site_Name   Gulf State Park Boat Launch and Nature Center (Middle Lake Park)    <br>   Signed_Nam   Gulf State Park, Middle Lake Park    <br>   Previous_M   Map 65    <br>   Trail_Map   ACBT    <br>   LAT   30.26369    <br>   LONG   -87.64105    <br>   Property_O   State of AL    <br>   Address   Campground Road off State Park Road 2    <br>   City   Gulf Shores    <br>   County   Baldwin    <br>   Zip   36542    <br>   Water_Body   Middle Lake    <br>   Charge   Y    <br>   Hours   Launch: DawnDusk, Nature Center: 9-4    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Marsh    <br>   Restroom   Y    <br>   Water_Fauc   Y    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   N    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   Y    <br>   Boat_Renta   Y    <br>   Playground   Y    <br>   Leashed_Pe   Y    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info   Nature Center: $1 per car, Boat Launch: $2.  ACBT coordinates a little off, updated.  Leased pets allowed at GSP campground and on trails.    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.64105,30.26369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gulf State Park Lake Shelby Recreation Area</name>
+        <description><![CDATA[Gulf State Park Lake Shelby Recreation Area    <br>       <br>   FID   17    <br>   Region   GS    <br>   Date_Visit   4/18/2013    <br>   Site_Name   Gulf State Park Lake Shelby Recreation Area    <br>   Signed_Nam   Picnic Area, Lake Shelby Park    <br>   Previous_M   Map 62    <br>   Trail_Map   ACBT, ACC    <br>   LAT   30.25312    <br>   LONG   -87.66513    <br>   Property_O   State of AL    <br>   Address   AL-135 just north of AL-182    <br>   City   Gulf Shores    <br>   County   Baldwin    <br>   Zip   36542    <br>   Water_Body   Lake Shelby    <br>   Charge   Y    <br>   Hours   7-sunset    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Grass/Sandy    <br>   Restroom   Y    <br>   Water_Fauc   Y    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   Y    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   Y    <br>   Playground   Y    <br>   Leashed_Pe   N    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info   $2 per vehicle, $2 to launch, $2 to fish. Kayak and paddleboard rentals, zipline.    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.66513,30.25312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lagoon Park, Little Lagoon Park, Mo's Launch]]></name>
+        <description><![CDATA[Lagoon Park, Little Lagoon Park, Mo's Launch    <br>       <br>   FID   18    <br>   Region   GS    <br>   Date_Visit   6/18/2013    <br>   Site_Name   Lagoon Park, Little Lagoon Park, Mo's Launch    <br>   Signed_Nam   Lagoon Park    <br>   Previous_M       <br>   Trail_Map   ACC, FMT    <br>   LAT   30.255117    <br>   LONG   -87.715727    <br>   Property_O   Gulf Shores    <br>   Address   18068 Fort Morgan Road (AL-180), 1.8 miles west of Gulf Shores Parkway (AL-59)    <br>   City   Gulf Shores    <br>   County   Baldwin    <br>   Zip   36542    <br>   Water_Body   Little Lagoon    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   Y    <br>   Water_Fauc   Y    <br>   Picinic_Ar   N    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   CZM    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje   Y (2006, 2007)    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.715727,30.255117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canal Park Boat Launch</name>
+        <description><![CDATA[Canal Park Boat Launch    <br>       <br>   FID   19    <br>   Region   GS    <br>   Date_Visit   4/25/2013    <br>   Site_Name   Canal Park Boat Launch    <br>   Signed_Nam   Canal Park    <br>   Previous_M   Map 64    <br>   Trail_Map       <br>   LAT   30.278482    <br>   LONG   -87.687336    <br>   Property_O   Gulf Shores    <br>   Address   50 W Canal Drive under Gulf Shores Parkway (AL-59) bridge    <br>   City   Gulf Shores    <br>   County   Baldwin    <br>   Zip   36542    <br>   Water_Body   Intracoastal Waterway    <br>   Charge   N    <br>   Hours   DawnDusk    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   N    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   CZM    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje   Y    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.687336,30.278482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Willam Brooks Park</name>
+        <description><![CDATA[Willam Brooks Park    <br>       <br>   FID   20    <br>   Region   MobN    <br>   Date_Visit   2/28/2013    <br>   Site_Name   Willam Brooks Park    <br>   Signed_Nam   Brooks Park    <br>   Previous_M       <br>   Trail_Map   ACBT    <br>   LAT   30.78175    <br>   LONG   -88.07326    <br>   Property_O   Chickasaw    <br>   Address   US-43 and Bellwood Lane    <br>   City   Chickasaw    <br>   County   Mobile    <br>   Zip   36611    <br>   Water_Body   Chickasaw Creek    <br>   Charge   Y    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Marsh    <br>   Restroom   Y(P)    <br>   Water_Fauc   Y    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   Y    <br>   Nature_Tra   Y    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   Y    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   CZM    <br>   Other_Info   Launch fee: $4    <br>   Reason_To_       <br>   306a_Proje   Y (2006, 2007, 2009, 2011, 2013)    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.07326,30.78175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chickasabogue Park</name>
+        <description><![CDATA[Chickasabogue Park    <br>       <br>   FID   21    <br>   Region   MobN    <br>   Date_Visit   2/28/2013    <br>   Site_Name   Chickasabogue Park    <br>   Signed_Nam   Chickasabogue Park    <br>   Previous_M   Map 17    <br>   Trail_Map       <br>   LAT   30.778845    <br>   LONG   -88.108204    <br>   Property_O   Mobile County    <br>   Address   760 Aldock Road    <br>   City   Prichard    <br>   County   Mobile    <br>   Zip   36613    <br>   Water_Body   Chickasaw Creek    <br>   Charge   Y    <br>   Hours   7-dusk, 24hrs for campers    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   Y    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Sandy    <br>   Restroom   Y    <br>   Water_Fauc   Y    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   Y    <br>   Boardwalk   N    <br>   Nature_Tra   Y    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   Y    <br>   Boat_Renta   Y    <br>   Playground   Y    <br>   Leashed_Pe   Y    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info   Admission fee: $1 12-59, $0.5 6-11, all other free. Pets not allowed on beach.    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.108204,30.778845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J.E. Turner Boat Landing and Waterfront Park</name>
+        <description><![CDATA[J.E. Turner Boat Landing and Waterfront Park    <br>       <br>   FID   22    <br>   Region   MobN    <br>   Date_Visit   2/28/2013    <br>   Site_Name   J.E. Turner Boat Landing and Waterfront Park    <br>   Signed_Nam   NONE    <br>   Previous_M       <br>   Trail_Map       <br>   LAT   31.087921    <br>   LONG   -87.979304    <br>   Property_O   Mount Vernon/AL    <br>   Address   End of Old Military Road/State Landing Road    <br>   City   Mount Vernon    <br>   County   Mobile    <br>   Zip   36560    <br>   Water_Body   Mobile River    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   NP    <br>   Pier   N    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   N    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.979304,31.087921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile County River Delta Marina and Welcome Center (Dead Lake Marina)</name>
+        <description><![CDATA[Mobile County River Delta Marina and Welcome Center (Dead Lake Marina)    <br>       <br>   FID   23    <br>   Region   MobN    <br>   Date_Visit   2/28/2013    <br>   Site_Name   Mobile County River Delta Marina and Welcome Center (Dead Lake Marina)    <br>   Signed_Nam   Mobile County River Delta Marina and Welcome Center    <br>   Previous_M       <br>   Trail_Map       <br>   LAT   30.907465    <br>   LONG   -87.979422    <br>   Property_O   Mobile County    <br>   Address   2350 Dead Lake Marina Road    <br>   City   Creola    <br>   County   Mobile    <br>   Zip   36525    <br>   Water_Body   Dead Lake to Mobile River    <br>   Charge   Y    <br>   Hours   24 hours (Launch), 6-4 (store)    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Marsh    <br>   Restroom   Y    <br>   Water_Fauc   Y    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   Y    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   Y    <br>   Handicap_P   N    <br>   Recognitio   CIAP    <br>   Other_Info   Launch Fee: $3, Fishing Fee: $2, ice, drink machine, welcome center with snacks    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.979422,30.907465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Steele Creek Lodge and Park</name>
+        <description><![CDATA[Steele Creek Lodge and Park    <br>       <br>   FID   24    <br>   Region   MobN    <br>   Date_Visit   2/28/2013    <br>   Site_Name   Steele Creek Lodge and Park    <br>   Signed_Nam   Steele Creek Lodge and Park    <br>   Previous_M       <br>   Trail_Map       <br>   LAT   30.855359    <br>   LONG   -88.039971    <br>   Property_O   Satsuma    <br>   Address   368 Juniper Avenue    <br>   City   Satsuma    <br>   County   Mobile    <br>   Zip   36572    <br>   Water_Body   Steele Creek, Gunnison Creek    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   NP    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   Y    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   CZM    <br>   Other_Info   Riprap along shoreline.  LSL candidate?    <br>   Reason_To_       <br>   306a_Proje   Y (2003, 2004, 2007)    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.039971,30.855359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walter V. Cofield Park (Bayou Sara Boat Ramp)</name>
+        <description><![CDATA[Walter V. Cofield Park (Bayou Sara Boat Ramp)    <br>       <br>   FID   25    <br>   Region   MobN    <br>   Date_Visit   2/28/2013    <br>   Site_Name   Walter V. Cofield Park (Bayou Sara Boat Ramp)    <br>   Signed_Nam   Walter V. Cofield Park    <br>   Previous_M   Map 18    <br>   Trail_Map       <br>   LAT   30.820243    <br>   LONG   -88.059361    <br>   Property_O   Saraland    <br>   Address   413 Ruben Ave    <br>   City   Saraland    <br>   County   Mobile    <br>   Zip   36571    <br>   Water_Body   Bayou Sara    <br>   Charge   N    <br>   Hours   Closed at 10pm    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   NP    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   Y    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N (306a Site)    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje   Y (2012)    <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.059361,30.820243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bayou La Batre Boat Ramp (Lightning Point Park, City Docks)</name>
+        <description><![CDATA[Bayou La Batre Boat Ramp (Lightning Point Park, City Docks)    <br>       <br>   FID   26    <br>   Region   MobS    <br>   Date_Visit   1/24/2013    <br>   Site_Name   Bayou La Batre Boat Ramp (Lightning Point Park, City Docks)    <br>   Signed_Nam   NONE    <br>   Previous_M   Map 12    <br>   Trail_Map       <br>   LAT   30.382267    <br>   LONG   -88.268575    <br>   Property_O   Bayou La Batre    <br>   Address   End of State Docks Road    <br>   City   Bayou La Batre    <br>   County   Mobile    <br>   Zip   36509    <br>   Water_Body   Portersville Bay, Mississippi Sound    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Marsh    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.268575,30.382267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dog River Park (Luscher Park)</name>
+        <description><![CDATA[Dog River Park (Luscher Park)    <br>       <br>   FID   27    <br>   Region   MobS    <br>   Date_Visit   2/26/2013    <br>   Site_Name   Dog River Park (Luscher Park)    <br>   Signed_Nam   Dog River Park    <br>   Previous_M   Map 16    <br>   Trail_Map       <br>   LAT   30.631808    <br>   LONG   -88.1032    <br>   Property_O   City of Mobile    <br>   Address   2459 N. Dog River Drive    <br>   City   Mobile    <br>   County   Mobile    <br>   Zip   36605    <br>   Water_Body   Dog River    <br>   Charge   N    <br>   Hours   DawnDusk    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   4    <br>   Carry_Down   Y    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Marsh    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   NP    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   Y    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   Y    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info   Restroom facilities were locked and not open to public.  Large quanity of trash and litter debris throughout park along shoreline.    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1032,30.631808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McNally Park</name>
+        <description><![CDATA[McNally Park    <br>       <br>   FID   28    <br>   Region   MobS    <br>   Date_Visit   1/28/2013    <br>   Site_Name   McNally Park    <br>   Signed_Nam   NONE    <br>   Previous_M   Map 15    <br>   Trail_Map       <br>   LAT   30.583468    <br>   LONG   -88.073236    <br>   Property_O   City of Mobile    <br>   Address   4380 Park Road    <br>   City   Mobile    <br>   County   Mobile    <br>   Zip   36605    <br>   Water_Body   Mobile Bay, Perch Creek    <br>   Charge   N    <br>   Hours   DawnDusk    <br>   Hard_Surfa   Y (2)    <br>   Boat_Lanes   1 (each)    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Rocky    <br>   Restroom   N    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   Y    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   ADECA    <br>   Other_Info   Note there are two single lane hard surface boat ramps at two different water bodies.  One boat ramp had debris in water.    <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.073236,30.583468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boggy Point Pulblic Boat Launch</name>
+        <description><![CDATA[Boggy Point Pulblic Boat Launch    <br>       <br>   FID   29    <br>   Region   OB    <br>   Date_Visit   4/10/2013    <br>   Site_Name   Boggy Point Pulblic Boat Launch    <br>   Signed_Nam   Boggy Point Pulblic Boat Access Boat Launching    <br>   Previous_M   Map 72    <br>   Trail_Map   ACBT, OBCT-09    <br>   LAT   30.2842    <br>   LONG   -87.55461    <br>   Property_O   State of AL    <br>   Address   East end of Marina Road    <br>   City   Orange Beach    <br>   County   Baldwin    <br>   Zip   36561    <br>   Water_Body   Cotton Bayou and Terry Cove    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   N    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.55461,30.2842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cotton Bayou Boat Launch</name>
+        <description><![CDATA[Cotton Bayou Boat Launch    <br>       <br>   FID   30    <br>   Region   OB    <br>   Date_Visit   5/19/2014    <br>   Site_Name   Cotton Bayou Boat Launch    <br>   Signed_Nam   Cotton Bayou Public Boat Access Boat Launching, Cotton Bayou Park    <br>   Previous_M   Map 68    <br>   Trail_Map   ACC, OBCT    <br>   LAT   30.271461    <br>   LONG   -87.583152    <br>   Property_O   State of AL    <br>   Address   No Wake Road off Orange Beach Boulevard    <br>   City   Orange Beach    <br>   County   Baldwin    <br>   Zip   36561    <br>   Water_Body   Cotton Bayou    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   None    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   N    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   ADECA    <br>   Other_Info       <br>   Reason_To_   On 4/10/2013, closed for repairs when first inventoried.  Revisited 5/19/14.    <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.583152,30.271461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mullet Point Park</name>
+        <description><![CDATA[Mullet Point Park    <br>       <br>   FID   31    <br>   Region   WB    <br>   Date_Visit   2/26/2013    <br>   Site_Name   Mullet Point Park    <br>   Signed_Nam   Mullet Point Park    <br>   Previous_M   Map 37    <br>   Trail_Map   ACBT, EST    <br>   LAT   30.4168    <br>   LONG   -87.90805    <br>   Property_O   Baldwin County    <br>   Address   CR 1, 0.3 miles south of Scenic Highway 98    <br>   City   Fairhope    <br>   County   Baldwin    <br>   Zip   36532    <br>   Water_Body   Mobile Bay    <br>   Charge   N    <br>   Hours   24 Hours    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Rocky    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   NP    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.90805,30.4168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weeks Bay Boat Ramp and Pier</name>
+        <description><![CDATA[Weeks Bay Boat Ramp and Pier    <br>       <br>   FID   32    <br>   Region   WB    <br>   Date_Visit   2/19/2013    <br>   Site_Name   Weeks Bay Boat Ramp and Pier    <br>   Signed_Nam   Bay Watch Public Boat Access    <br>   Previous_M   Map 41    <br>   Trail_Map   ACC, EST    <br>   LAT   30.415969    <br>   LONG   -87.82571    <br>   Property_O   State of AL    <br>   Address   US-98 just west of Fish River bridge    <br>   City   Fairhope    <br>   County   Baldwin    <br>   Zip   36532    <br>   Water_Body   Weeks Bay    <br>   Charge   N    <br>   Hours   DawnDusk    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Marsh    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   Y    <br>   Nature_Tra   N    <br>   Bike_Trail   Y    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.82571,30.415969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Historic Marlow Ferry and Farragut's Basin]]></name>
+        <description><![CDATA[Historic Marlow Ferry and Farragut's Basin    <br>       <br>   FID   33    <br>   Region   WB    <br>   Date_Visit   2/19/2013    <br>   Site_Name   Historic Marlow Ferry and Farragut's Basin    <br>   Signed_Nam   Historic Marlow Ferry and Farragut's Basin    <br>   Previous_M   Map 36    <br>   Trail_Map       <br>   LAT   30.461967    <br>   LONG   -87.801242    <br>   Property_O   Baldwin County    <br>   Address   Honey Road just west of CR 9    <br>   City   Summerdale    <br>   County   Baldwin    <br>   Zip   36580    <br>   Water_Body   Fish River    <br>   Charge   N    <br>   Hours   24 Hours    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   1    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Small    <br>   Beach_Type   Rocky    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   Y    <br>   Fishing_Wi   NP    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   Y    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   Y    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.801242,30.461967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weeks Bay Park and Public Boat Launch (Pelican Point)</name>
+        <description><![CDATA[Weeks Bay Park and Public Boat Launch (Pelican Point)    <br>       <br>   FID   34    <br>   Region   WB    <br>   Date_Visit   2/19/2013    <br>   Site_Name   Weeks Bay Park and Public Boat Launch (Pelican Point)    <br>   Signed_Nam   Weeks Bay Park    <br>   Previous_M   Map 39    <br>   Trail_Map       <br>   LAT   30.376653    <br>   LONG   -87.837238    <br>   Property_O   State of AL    <br>   Address   Southeast end of CR 1 where Weeks Bay meets Mobile Bay    <br>   City   Fairhope    <br>   County   Baldwin    <br>   Zip   36532    <br>   Water_Body   Weeks Bay, Mobile Bay    <br>   Charge   N    <br>   Hours   NP    <br>   Hard_Surfa   Y    <br>   Boat_Lanes   2    <br>   Carry_Down   N    <br>   Unmaintain   N    <br>   Parking   Large    <br>   Beach_Type   Rocky    <br>   Restroom   Y(P)    <br>   Water_Fauc   N    <br>   Picinic_Ar   N    <br>   Fishing_Wi   Y    <br>   Pier   Y    <br>   Swimming   N    <br>   Boardwalk   N    <br>   Nature_Tra   N    <br>   Bike_Trail   N    <br>   Gazebo_Cov   N    <br>   Observatio   N    <br>   Scenic_Vis   Y    <br>   Campground   N    <br>   Boat_Renta   N    <br>   Playground   N    <br>   Leashed_Pe   NP    <br>   Handicap_P   N    <br>   Recognitio   N    <br>   Other_Info       <br>   Reason_To_       <br>   306a_Proje       <br>   F47]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -87.837238,30.376653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
