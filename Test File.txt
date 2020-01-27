@@ -2,3 +2,4 @@ Testing git push with a text file - Everyone list their name on the file below t
 Austin Heriott
 De'Asha Shine
 Patrick Maxwell
+Matt Wilhelm
