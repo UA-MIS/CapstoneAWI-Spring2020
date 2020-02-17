@@ -1,6 +1,0 @@
-Testing git push with a text file - Everyone list their name on the file below to confirm you were successfully able to commit and push a change
-Austin Heriott
-De'Asha Shine
-Patrick Maxwell
-Matt Wilhelm
-Jacob Coats
