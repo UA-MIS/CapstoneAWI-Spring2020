@@ -15,6 +15,7 @@
     "lint": "tslint \"src/**/*.ts\""
   },
   "dependencies": {
+    "@angular/cli": "9.0.2",
     "@angular/animations": "~8.2.0",
     "@angular/common": "~8.2.0",
     "@angular/compiler": "~8.2.0",
@@ -33,7 +34,9 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "~8.2.0",
+    "@nativescript/schematics": "^1.0.0",
     "@ngtools/webpack": "~8.2.0",
+    "@schematics/angular": "^9.0.2",
     "codelyzer": "~4.5.0",
     "nativescript-dev-webpack": "~1.5.0",
     "node-sass": "^4.7.1",
