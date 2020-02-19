@@ -1,21 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { WeatherService } from '../shared/weather.service';
+import { WeatherAPIService } from '../shared/weather-api.service';
 
 @Component({
   selector: 'Weather',
   templateUrl: './weather.component.html',
+  providers: [WeatherAPIService]
 })
 export class WeatherComponent implements OnInit {
-  public data = { title: "placeHolder" };
+  public weatherData;
 
-  constructor(private weatherService: WeatherService) { }
+  constructor(private weatherService: WeatherAPIService) { }
 
-  ngOnInit(): void {
-    this.weatherService.getCurrentWeather().subscribe(
-      data => this.data = data,
-      err => {
-        console.log(err);
-      }
+  ngOnInit() {
+    this.weatherService.getWeatherData().subscribe(
+      d => {
+        this.weatherData = d;
+      },
+      err => console.log(err)
     );
   }
 
