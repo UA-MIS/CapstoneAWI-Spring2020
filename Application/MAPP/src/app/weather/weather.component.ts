@@ -7,16 +7,16 @@ import { WeatherAPIService } from '../shared/weather-api.service';
   providers: [WeatherAPIService]
 })
 export class WeatherComponent implements OnInit {
-  public weatherData;
+  public weatherData;;
 
   constructor(private weatherService: WeatherAPIService) { }
 
   ngOnInit() {
-    this.weatherService.getWeatherData().subscribe(
-      d => {
-        this.weatherData = d;
-      },
-      err => console.log(err)
+    this.weatherService.getWeatherData(33, -87).subscribe(
+      (data) => {
+        this.weatherData = data;
+        console.log(data);
+      }, (error) => console.log(error)
     );
   }
 
