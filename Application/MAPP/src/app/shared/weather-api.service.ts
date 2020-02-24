@@ -5,10 +5,10 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class WeatherAPIService {
+export class WeatherAPIService {;
   constructor(private http: HttpClient) { }
 
-  getWeatherData(lat: number, lon: number): Observable<any> {
+  getCurrentWeatherData(lat: number, lon: number): Observable<any> {
     let key = "a820e83b00a7f25dc38c83c6d42fdeee";
     let headers = new HttpHeaders({
       'Content-Type': 'application/json'

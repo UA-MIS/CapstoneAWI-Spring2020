@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { WeatherAPIService } from '../shared/weather-api.service';
+import { finalize } from 'rxjs/operators';
 
 @Component({
   selector: 'Weather',
@@ -7,17 +8,21 @@ import { WeatherAPIService } from '../shared/weather-api.service';
   providers: [WeatherAPIService]
 })
 export class WeatherComponent implements OnInit {
-  public weatherData;;
+  public currentWeatherData;
 
   constructor(private weatherService: WeatherAPIService) { }
 
   ngOnInit() {
-    this.weatherService.getWeatherData(33, -87).subscribe(
-      (data) => {
-        this.weatherData = data;
-        console.log(data);
-      }, (error) => console.log(error)
-    );
+    this.getWeatherData();
   }
 
+  getWeatherData() {
+    this.weatherService.getCurrentWeatherData(33, -87).subscribe(
+      (data) => {
+        this.currentWeatherData = data;
+        console.log(this.currentWeatherData);
+      },
+      (err) => console.log(err)
+    );
+  }
 }

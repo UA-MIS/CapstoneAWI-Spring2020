@@ -2,6 +2,6 @@
     <Label text="Weather"></Label>
 </ActionBar>
 
-<GridLayout class="page__content">
-    <Label class="content" [text]="weatherData" textWrap="true"></Label>
+<GridLayout>
+    <Label [text]="currentWeatherData?.weather[0].main"></Label>
 </GridLayout>
