@@ -13,4 +13,22 @@
     font-size: 16px;
     color: green;
     margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.windLabel {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.windData {
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+.weatherStatusContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

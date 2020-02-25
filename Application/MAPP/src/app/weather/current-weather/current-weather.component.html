@@ -7,5 +7,18 @@
         <Label class="locationLabel" [text]="currentWeatherData?.name"></Label>
     </ng-template>
 
-    <Label class="temperatureLabel" [text]="convertKelvinToFahrenheit(currentWeatherData?.main.temp) + '°'"></Label>
+    <Label class="temperatureLabel" [text]="convertKelvinToFahrenheit(currentWeatherData?.main.temp) + '°'" style="float: left"></Label>
+
+    <StackLayout orientation="horizontal">
+        <Label class="windLabel" text="Wind speed: "></Label>
+        <Label class="windData" [text]="currentWeatherData?.wind.speed + ' mph'"></Label>
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+        <Label class="windLabel" text="Wind temperature: "></Label>
+        <Label class="windData" [text]="convertKelvinToFahrenheit(currentWeatherData?.wind.deg) + '°'"></Label>
+    </StackLayout>
+
+    <StackLayout orientation="vertical" width="100%" class="weatherStatusContainer" *ngFor="let weather of currentWeatherData?.weather">
+        <ns-weather-status [weatherStatusData]="weather"></ns-weather-status>
+    </StackLayout>
 </FlexboxLayout>

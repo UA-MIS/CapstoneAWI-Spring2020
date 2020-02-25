@@ -4,10 +4,11 @@ import { WeatherRoutingModule } from './weather-routing.module';
 import { NativeScriptCommonModule } from 'nativescript-angular/common';
 import { WeatherComponent } from './weather.component';
 import { CurrentWeatherComponent } from './current-weather/current-weather.component';
+import { WeatherStatusComponent } from './current-weather/weather-status/weather-status.component';
 
 
 @NgModule({
-  declarations: [WeatherComponent, CurrentWeatherComponent],
+  declarations: [WeatherComponent, CurrentWeatherComponent, WeatherStatusComponent],
   imports: [
     WeatherRoutingModule,
     NativeScriptCommonModule
