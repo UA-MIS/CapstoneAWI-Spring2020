@@ -19,6 +19,6 @@
     </StackLayout>
 
     <StackLayout orientation="vertical" width="100%" class="weatherStatusContainer" *ngFor="let weather of currentWeatherData?.weather">
-        <ns-weather-status [weatherStatusData]="weather"></ns-weather-status>
+        <ns-weather-status class="weatherStatus" [weatherStatusData]="weather"></ns-weather-status>
     </StackLayout>
 </FlexboxLayout>
