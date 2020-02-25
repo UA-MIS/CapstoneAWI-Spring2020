@@ -1,0 +1,16 @@
+.roundedBox {
+    border-radius: 25px;
+}
+
+.locationLabel {
+    font-size: 20px;
+    font-weight: bold;
+    color: #72a7fc;
+    margin-left: 20px;
+}
+
+.temperatureLabel {
+    font-size: 16px;
+    color: green;
+    margin-left: 20px;
+}
