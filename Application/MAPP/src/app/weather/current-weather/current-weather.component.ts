@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { WeatherAPIService } from '../../shared/weather-api.service';
+import { fontStyleProperty } from 'tns-core-modules/ui/page/page';
 
 @Component({
   selector: 'ns-current-weather',
@@ -16,12 +17,16 @@ export class CurrentWeatherComponent implements OnInit {
   }
 
   getCurrentWeatherData() {
-    this.weatherService.getCurrentWeatherData(25.36, -91.51).subscribe(
+    this.weatherService.getCurrentWeatherData(32, -86).subscribe(
       (data) => {
         this.currentWeatherData = data;
         console.log(data);
       },
       (err) => console.log(err)
     );
+  }
+
+  convertKelvinToFahrenheit(temp: number): number {
+    return Math.floor((temp - 273.15) * 9/5 + 32);
   }
 }
