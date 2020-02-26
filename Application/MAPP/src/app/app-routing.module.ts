@@ -9,7 +9,6 @@ const routes: Routes = [
         redirectTo: "/(homeTab:home/default//browseTab:browse/default//searchTab:search/default)",
         pathMatch: "full"
     },
-
     {
         path: "home",
         component: NSEmptyOutletComponent,
@@ -19,7 +18,7 @@ const routes: Routes = [
     {
         path: "browse",
         component: NSEmptyOutletComponent,
-        loadChildren: () => import("~/app/browse/browse.module").then((m) => m.BrowseModule),
+        loadChildren: () => import("~/app/weather/browse.module").then((m) => m.BrowseModule),
         outlet: "browseTab"
     },
     {

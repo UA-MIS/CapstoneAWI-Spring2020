@@ -2,12 +2,20 @@
     <Label text="Home"></Label>
 </ActionBar>
 
-<GridLayout>
-    <ListView [items]="items">
-        <ng-template let-item="item">
-            <StackLayout>
-                <Label [nsRouterLink]="['../item', item.id]" [text]="item.name"></Label>
-            </StackLayout>
-        </ng-template>
-    </ListView>
-</GridLayout>
+<ContentView height="100%" width="100%">
+    <Mapbox
+        accessToken="sk.eyJ1IjoicGptYXh3ZWxsMSIsImEiOiJjazcyODk1eTAwZGxrM2RtYmEycnh5Mm1mIn0.fQPB_cPB35ohxZxM-nYarA"
+        mapStyle="mapbox://styles/pjmaxwell1/ck72mixwr14m41ip9xnbigqs5"
+        delay="500"
+        latitude="24.5"
+        longitude="-90"
+        hideCompass="true"
+        zoomLevel="3.5"
+        showUserLocation="false"
+        disableZoom="false"
+        disableRotation="false"
+        disableScroll="false"
+        disableTilt="false"
+        (mapReady)="onMapReady($event)">
+    </Mapbox>
+  </ContentView>
