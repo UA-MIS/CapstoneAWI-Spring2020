@@ -9,7 +9,7 @@
 
     <Label class="temperatureLabel" [text]="convertKelvinToFahrenheit(currentWeatherData?.main.temp) + '°'" style="float: left"></Label>
 
-    <StackLayout orientation="horizontal">
+    <StackLayout effectiveMarginTop="20px" orientation="horizontal">
         <Label class="windLabel" text="Wind speed: "></Label>
         <Label class="windData" [text]="currentWeatherData?.wind.speed + ' mph'"></Label>
     </StackLayout>
