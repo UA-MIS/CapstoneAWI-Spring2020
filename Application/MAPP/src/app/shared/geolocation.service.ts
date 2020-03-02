@@ -8,7 +8,7 @@ import { Accuracy } from "tns-core-modules/ui/enums";
   providedIn: 'root'
 })
 export class GeolocationService {
-  public currentLocation: BehaviorSubject<any>;
+  public currentLocation = new BehaviorSubject({});
   private watchId;
 
   constructor() { }
@@ -24,11 +24,7 @@ export class GeolocationService {
     geolocation.enableLocationRequest(false, true).then(() => {
       this.watchId = geolocation.watchLocation(
         loc => {
-          if (this.currentLocation == undefined) {
-            this.currentLocation = new BehaviorSubject<any>(loc);
-          } else {
-            this.currentLocation.next(loc);
-          }
+          this.currentLocation.next(loc);
         },
         e => {
           console.log("Error occured while updating location: ", e);
@@ -42,6 +38,14 @@ export class GeolocationService {
       )
     }, e => {
       console.log("Error enabling location services: ", e);
+    });
+  }
+
+  getLocation(): Promise<any> {
+    return geolocation.getCurrentLocation({
+      desiredAccuracy: Accuracy.high,
+      maximumAge: 5000,
+      timeout: 10000
     });
   }
 }
