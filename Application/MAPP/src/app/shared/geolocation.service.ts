@@ -24,10 +24,14 @@ export class GeolocationService {
     geolocation.enableLocationRequest(false, true).then(() => {
       this.watchId = geolocation.watchLocation(
         loc => {
-
+          if (this.currentLocation == undefined) {
+            this.currentLocation = new BehaviorSubject<any>(loc);
+          } else {
+            this.currentLocation.next(loc);
+          }
         },
         e => {
-
+          console.log("Error occured while updating location: ", e);
         },
         {
           desiredAccuracy: Accuracy.any,
