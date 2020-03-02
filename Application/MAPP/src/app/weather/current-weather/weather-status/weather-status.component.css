@@ -16,6 +16,6 @@
 }
 
 .statusIcon {
-    flex-grow: 50px;
-    margin-left: 500px;
+    width: 50;
+    height: 50;
 }
