@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { GeolocationService } from "./shared/geolocation.service";
 
 @Component({
     selector: "ns-app",
@@ -6,8 +7,8 @@ import { Component, OnInit } from "@angular/core";
 })
 export class AppComponent implements OnInit {
 
-    constructor() {
-        // Use the component constructor to inject providers.
+    constructor(private geolocationService: GeolocationService) {
+        geolocationService.watchLocation();
     }
 
     ngOnInit(): void {

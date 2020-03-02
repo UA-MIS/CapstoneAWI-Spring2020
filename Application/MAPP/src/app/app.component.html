@@ -13,8 +13,12 @@
             <Image src="font://&#xf0c2;" class="fas t-36"></Image>
         </TabStripItem>
         <TabStripItem class="navigation__item">
-            <Label text="Safety and Regulations"></Label>
-            <Image src="font://&#xf02d;" class="fas t-36"></Image>
+            <Label text="Safety"></Label>
+            <Image src="font://&#xf21a;" class="fas t-36"></Image>
+        </TabStripItem>
+        <TabStripItem class="navigation__item">
+            <Label text="Regulations"></Label>
+            <Image src="font://&#xf46d;" class="fas t-36"></Image>
         </TabStripItem>
     </TabStrip>
 
@@ -28,5 +32,9 @@
 
     <TabContentItem>
         <page-router-outlet name="searchTab"></page-router-outlet>
+    </TabContentItem>
+
+    <TabContentItem>
+        <page-router-outlet name="regulationsTab"></page-router-outlet>
     </TabContentItem>
 </BottomNavigation>

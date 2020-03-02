@@ -15,8 +15,8 @@
     "lint": "tslint \"src/**/*.ts\""
   },
   "dependencies": {
-    "@angular/cli": "9.0.2",
     "@angular/animations": "~8.2.0",
+    "@angular/cli": "9.0.2",
     "@angular/common": "~8.2.0",
     "@angular/compiler": "~8.2.0",
     "@angular/core": "~8.2.0",
@@ -26,16 +26,19 @@
     "@angular/router": "~8.2.0",
     "@arcgis/cli": "4.14.0",
     "@nativescript/theme": "~2.3.0",
+    "atob": "^2.1.2",
     "nativescript-angular": "~8.21.0",
+    "nativescript-geolocation": "^5.1.0",
     "reflect-metadata": "~0.1.12",
     "rxjs": "^6.4.0",
+    "serialize-javascript": "^3.0.0",
     "tns-core-modules": "~6.4.0",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular/compiler-cli": "~8.2.0",
     "@nativescript/schematics": "^1.0.0",
-    "@ngtools/webpack": "~8.2.0",
+    "@ngtools/webpack": "^9.0.2",
     "@schematics/angular": "^9.0.2",
     "codelyzer": "~4.5.0",
     "nativescript-dev-webpack": "~1.5.0",
