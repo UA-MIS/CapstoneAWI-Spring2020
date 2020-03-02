@@ -21,7 +21,9 @@ export class GeolocationService {
   }
 
   watchLocation() {
+    // Ask for location permissions if the app doesn't already have them
     geolocation.enableLocationRequest(false, true).then(() => {
+      // Watch for changes in the user's location and update BehaviorSubject accordingly
       this.watchId = geolocation.watchLocation(
         loc => {
           this.currentLocation.next(loc);
@@ -38,14 +40,6 @@ export class GeolocationService {
       )
     }, e => {
       console.log("Error enabling location services: ", e);
-    });
-  }
-
-  getLocation(): Promise<any> {
-    return geolocation.getCurrentLocation({
-      desiredAccuracy: Accuracy.high,
-      maximumAge: 5000,
-      timeout: 10000
     });
   }
 }

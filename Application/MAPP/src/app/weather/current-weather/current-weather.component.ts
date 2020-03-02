@@ -15,6 +15,7 @@ export class CurrentWeatherComponent implements OnInit {
   constructor(private weatherService: WeatherAPIService, private geolocationService: GeolocationService) { }
 
   ngOnInit(): void {
+    // Obtain location data and then use it to fetch current weather
     this.geolocationService.currentLocation.subscribe(loc => {
       this.currentLocation = loc;
       this.getCurrentWeatherData();
