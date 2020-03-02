@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { WeatherAPIService } from '../../shared/weather-api.service';
 import { fontStyleProperty } from 'tns-core-modules/ui/page/page';
+import { GeolocationService } from '~/app/shared/geolocation.service';
 
 @Component({
   selector: 'ns-current-weather',
@@ -9,15 +10,21 @@ import { fontStyleProperty } from 'tns-core-modules/ui/page/page';
 })
 export class CurrentWeatherComponent implements OnInit {
   public currentWeatherData;
+  private currentLocation;
 
-  constructor(private weatherService: WeatherAPIService) { }
+  constructor(private weatherService: WeatherAPIService, private geolocationService: GeolocationService) { 
+    
+  }
 
   ngOnInit(): void {
-    this.getCurrentWeatherData();
+    this.geolocationService.currentLocation.subscribe(loc => {
+      this.currentLocation = loc;
+      this.getCurrentWeatherData();
+    });
   }
 
   getCurrentWeatherData() {
-    this.weatherService.getCurrentWeatherData(32, -86).subscribe(
+    this.weatherService.getCurrentWeatherData(this.currentLocation.latitude, this.currentLocation.longitude).subscribe(
       (data) => {
         this.currentWeatherData = data;
         console.log(data);
