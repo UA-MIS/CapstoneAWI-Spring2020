@@ -12,9 +12,7 @@ export class CurrentWeatherComponent implements OnInit {
   public currentWeatherData;
   private currentLocation;
 
-  constructor(private weatherService: WeatherAPIService, private geolocationService: GeolocationService) { 
-    
-  }
+  constructor(private weatherService: WeatherAPIService, private geolocationService: GeolocationService) { }
 
   ngOnInit(): void {
     this.geolocationService.currentLocation.subscribe(loc => {
@@ -24,7 +22,10 @@ export class CurrentWeatherComponent implements OnInit {
   }
 
   getCurrentWeatherData() {
-    this.weatherService.getCurrentWeatherData(this.currentLocation.latitude, this.currentLocation.longitude).subscribe(
+    this.weatherService.getCurrentWeatherData(
+      this.currentLocation.latitude, 
+      this.currentLocation.longitude
+    ).subscribe(
       (data) => {
         this.currentWeatherData = data;
         console.log(data);
