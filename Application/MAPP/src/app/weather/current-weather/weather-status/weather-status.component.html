@@ -1,10 +1,8 @@
-<FlexboxLayout flexDirection="row" class="statusBox" backgroundColor="white">
-    <FlexboxLayout flexDirection="column">
+<FlexboxLayout flexDirection="row" class="statusBox" backgroundColor="white" >
+    <FlexboxLayout flexDirection="column" width="80%" justifyContent="center">
         <Label class="statusTitle" [text]="weatherStatusData.main"></Label>
 
         <Label class="statusDescription" [text]="weatherStatusData.description"></Label>
     </FlexboxLayout>
- 
     <Image class="statusIcon" [src]="'http://openweathermap.org/img/wn/' + weatherStatusData.icon + '@2x.png'" ></Image>
-  
 </FlexboxLayout>
