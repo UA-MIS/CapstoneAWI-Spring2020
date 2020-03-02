@@ -1,4 +1,4 @@
-<FlexboxLayout class="roundedBox" height="20%" backgroundColor="lightgray" flexDirection="column" alignItems="flex-start">
+<FlexboxLayout class="roundedBox" height="30%" backgroundColor="lightgray" flexDirection="column" alignItems="flex-start">
     <StackLayout *ngIf="currentWeatherData?.name == ''; then gulfTemplate else landTemplate"></StackLayout>
     <ng-template #gulfTemplate>
         <Label class="locationLabel" text="Gulf of Mexico"></Label> 
