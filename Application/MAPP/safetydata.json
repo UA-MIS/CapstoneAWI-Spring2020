@@ -55,6 +55,75 @@
             "fireExt5": "To check this style of extinguisher, depress the green button. If it is fully charged, the green button should pop back out immediately. ",
             "fireExt6": "On this style of fire extinguisher, the needle indicator should be in the 'full' range." 
         }
+    },
+
+    "Federally Controlled Waters": {
+        "name": "Federally Controlled Waters Info/Content",
+        "image": "",
+        "description": {
+            "fcwHeader": "Federally Controlled Waters",
+            "fcw1": "Boat and PWC operators must observe federal regulations when boating on:",
+            "fcw2": "\t - Coastal Waters",
+            "fcw3": "\t - The Great Lakes",
+            "fcw4": "\t - Territorial Seas",
+            "fcw5": "Waters which are two miles wide or wider and are connected to one of the above."
+        }
+    },
+
+    "Flame Arrestors": {
+        "name": "Flame Arrestors Info/Content",
+        "image": "",
+        "description": {
+            "flameArrestorsHeader": "Flame Arrestors",
+            "fa1": "Every motorboat using gasoline as fuel, except outboard motors, shall have the carburetor or carburetors of every engine therein equipped with a U.S. Coast Guard approved flame arrestor or backfire trap."
+        }
+    },
+
+    "Ditch Bag": {
+        "name": "Ditch Bag Info/Content",
+        "image": "",
+        "description": {
+            "ditchBagHeader": "Ditch Bag",
+            "db1": "When you prepare your ditch bag, here's what to look for: \n",
+            "db2": "- VHF RADIO should be waterproof like the Lowrance unit at right above. \n",
+            "db3": "- PLB such as the Aqualink View activates on command to communicate a position to appropriate rescuers.\n",
+            "db4": "- FLARES should be part of your safety kit and are required by law in most federally patrolled water. If you leave the boat, take them with you.\n",
+            "db5": "- STROBES like the ACR C-Strobe can save precious time when activated. \n",
+            "db6": "- POWERFLARE SAFETY LIGHT and strobes like this (in red case, bottom right) emit SOS or flashing lights to alert rescue personnel.\n",
+            "db7": "- SIGNAL MIRRORS can alert rescue personnel in bright daylight, cost practically nothing and are recommended by the USCG.\n",
+            "db8": "- WHISTLES are great at attracting rescue personnel when visibility is poor.\n",
+            "db9": "- ROPE can keep the crew together should a lifeboat not be available.\n",
+            "db10": "- A GERBER HINDERER serrated blunt-point knife is less likely to puncture a life raft and will make quick work of slicing ropes or bandages.\n",
+            "db11": "- FIRST AID KITS should include a ready supply of essential medications you may need on a frequent basis.\n",
+            "db12": "- DRINKING WATER should be accompanied by a measuring device to carefully apportion it to maintain life and morale.\n",
+            "db13": "- SUNSCREEN and Dramamine can ease discomfort adrift.\n",
+            "db14": "- CASH and a copy of your passport in a sandwich bag can facilitate a return to America from foreign waters.\n"
+        }
+    },
+
+    "Emergency Cut-Off Switch": {
+        "name": "Emergency Cut-Off Switch",
+        "image": "",
+        "description": {
+            "ecosHeader": "Emergency Cut-Off Switch",
+            "ecos1": "No person shall operate or give permission to operate any vessel less than 7.3 meters (24 feet) in length, having an open cockpit and having more than fifty (50) horsepower, unless the said vessel is equipped with an emergency engine or motor shut-off switch.",
+            "ecos2": "The shut-off switch shall be a lanyard-type and shall be attached to the person, clothing, or personal flotation device of the operator. It shall be installed so that when any removal of the operator from the normal operating station will result in the immediate shut-off of the engine.",
+            "ecos3": "Any person operating a personal watercraft that does not have self-circling capabilities must have a lanyard-type engine shut-off switch, which must be attached to the person, clothing, or personal flotation device of the operator. \n"
+        }
+    },
+
+    "Personal Flotation Devices": {
+        "name": "Personal Flotation Devices",
+        "image": "",
+        "description": {
+            "pfdHeader": "Personal Flotation Devices",
+            "pfd1": "Vessels less than 4.9 meters (16 feet) in length will have aboard a type I, II, III, or V personal flotation device for each person.Vessels 4.9 meters (16 feet) and over in length shall have aboard a type I, II, III, or V personal flotation device for each person and at least one type IV on board as a throwable device. Each person operating, riding on, or being towed by a personal watercraft must wear a personal flotation device approved by the U.S.Coast Guard.\n",
+            "pfd2": "All persons under eight (8) years of age, on any vessel, must, at all times, wear a U. S. Coast Guard approved personal flotation device that must be strapped, snapped, or zipped securely in place; except, that no personal flotation device should be required when inside an enclosed cabin or enclosed sleeping space. \n",
+            "pfd3": "CAUTION: ",
+            "pfd4": "Personal flotation devices must be accessible and of the proper size. Those that are torn, rotted, or damaged, lose their approval. \n",
+            "pfd5": "CAUTION: ",
+            "pfd6": "A type V personal flotation device is a PFD approved for restricted uses. Type V PFD's must be worn in open boats and when on the deck of larger boats in order to be classified as U. S. Coast Guard approved. \n"
+        }
     }
 
 
