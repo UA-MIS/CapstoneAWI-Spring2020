@@ -15,10 +15,14 @@ export class BuoyService {
     });
     return this.http.get(
       "https://www.ndbc.noaa.gov/data/latest_obs/latest_obs.txt",
-      { 
-        headers: headers,
-        responseType: 'text'
-      }
+      { responseType: 'text' }
     );
+  }
+
+  getBuoyData(): Observable<any> {
+    return this.getRawBuoyData().pipe(map(d => {
+      // Parse text into JSON here
+      return d;
+    }))
   }
 }

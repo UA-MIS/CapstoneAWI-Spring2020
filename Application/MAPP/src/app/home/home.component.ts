@@ -15,8 +15,7 @@ export class HomeComponent implements OnInit {
     constructor(private _itemService: DataService, private buoyService: BuoyService) { }
 
     ngOnInit(): void {
-        this.buoyService.getRawBuoyData().subscribe(d => {
-            console.log(d);
+        this.buoyService.getBuoyData().subscribe(d => {
             this.buoyData = d;
         });
         this.items = this._itemService.getItems();
