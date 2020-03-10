@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { GeolocationService } from "./shared/geolocation.service";
+import { BuoyService } from "./shared/buoy.service";
 
 @Component({
     selector: "ns-app",

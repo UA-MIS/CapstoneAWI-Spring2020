@@ -3,5 +3,8 @@
   "android": {
     "v8Flags": "--expose_gc",
     "markingMode": "none"
+  },
+  "dependencies": {
+    "nativescript-geolocation": "^5.1.0"
   }
 }
