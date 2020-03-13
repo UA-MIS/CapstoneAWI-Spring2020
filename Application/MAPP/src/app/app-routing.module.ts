@@ -9,7 +9,6 @@ const routes: Routes = [
         redirectTo: "/(homeTab:home/default//weatherTab:weather/default//searchTab:search/default)",
         pathMatch: "full"
     },
-
     {
         path: "home",
         component: NSEmptyOutletComponent,
