@@ -1,13 +1,27 @@
 <ActionBar>
-    <Label text="Home"></Label>
+    <Label text="Map"></Label>
 </ActionBar>
 
-<GridLayout>
-    <ListView [items]="items">
-        <ng-template let-item="item">
-            <StackLayout>
-                <Label [nsRouterLink]="['../item', item.id]" [text]="item.name"></Label>
-            </StackLayout>
-        </ng-template>
-    </ListView>
+<GridLayout rows="auto, *" class="page">
+    <StackLayout row="0">
+        <div class="col-sm-6">
+            <Button text="Buoys" class="btn btn-primary" style="background-color: cadetblue;" (tap)="toggleBuoyMarkers()"></Button>
+        </div>
+        <div class="col-sm-6">
+            <Button text="Clear" class="btn btn-primary" style="background-color: crimson;" (tap)="clearMap()"></Button>
+        </div>
+    </StackLayout>
+
+    <ContentView row="1" height="100%" width="100%">
+        <Mapbox
+            accessToken="sk.eyJ1IjoicGptYXh3ZWxsMSIsImEiOiJjazcyODk1eTAwZGxrM2RtYmEycnh5Mm1mIn0.fQPB_cPB35ohxZxM-nYarA"
+            mapStyle="mapbox://styles/pjmaxwell1/ck72mixwr14m41ip9xnbigqs5"
+            latitude="24.5" 
+            longitude="-90"
+            hideCompass="true" 
+            zoomLevel="3.5" 
+            showUserLocation="true" 
+            (mapReady)="onMapReady($event)">
+        </Mapbox>
+    </ContentView>
 </GridLayout>

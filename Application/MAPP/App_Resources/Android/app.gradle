@@ -8,6 +8,27 @@
 // If you want to add something to be applied before applying plugins' include.gradle files
 // e.g. project.ext.googlePlayServicesVersion = "15.0.1"
 // create a file named before-plugins.gradle in the current directory and place it there
+dependencies {
+
+    // required for 'mapbox-android-sdk'
+    compile "com.mapbox.mapboxsdk:mapbox-android-gestures:0.2.0"
+    compile "com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5"
+    compile "com.mapbox.mapboxsdk:mapbox-sdk-geojson:3.4.1"
+
+    implementation ('com.mapbox.mapboxsdk:mapbox-android-sdk:6.4.1'){
+        transitive=false
+    }
+
+    // service library
+    compile ('com.mapbox.mapboxsdk:mapbox-android-services:2.2.10@aar'){
+        transitive=true
+    }
+
+    // plugins
+    implementation ('com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.10.0'){
+        transitive=false
+    }
+}
 
 android {
   defaultConfig {
@@ -17,6 +38,10 @@ android {
   aaptOptions {
     additionalParameters "--no-version-vectors"
   }
+  compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 def settingsGradlePath
