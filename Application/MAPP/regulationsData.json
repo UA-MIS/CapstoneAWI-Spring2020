@@ -25,6 +25,17 @@
         }
     },
 
+    "ReportingFixed": {
+        "name": "Reporting Data",
+        "image": "./assets/image.png",
+        "header": "Snapper Check",
+        "content": [
+            "Species with mandatory reporting: \n1. Red Snapper\n\nNote: Only one report per vessel trip",
+            "Species with voluntary reporting: \n1. Gray Triggerfish \n2. Greater Amberjack \n\nNote: Only one report per vessel trip",
+            "Download the Outdoor AL App for Game Check and Snapper Check \nhttps://apps.apple.com/us/app/outdoor-al/id1381147009"
+        ]
+    }
+
     "Licensing": {
         "name": "Licensing Data",
         "image": "",
