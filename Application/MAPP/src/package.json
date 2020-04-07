@@ -5,6 +5,7 @@
     "markingMode": "none"
   },
   "dependencies": {
-    "nativescript-geolocation": "^5.1.0"
+    "nativescript-geolocation": "^5.1.0",
+    "angular-cli": "^1.0.0-beta.28.3"
   }
 }
