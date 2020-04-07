@@ -1,129 +1,144 @@
 {
     "Visual Distress Data": {
-        "name": "Visual Distress Data",
+        "name": "Visual Distress Data Info/Content",
         "image": "",
-        "description": {
-            "vdsHeader": "Visual Distress Signals",
-            "vds1": "Visual Distress Signals (VDSs) allow boat operators to signal for help in the event of an emergency.",
-            "vds2": "VDSs are classified as day signals (visible in bright sunlight), night signals (visible at night) or both day and night signals.",
-            "vds3": "VDSs are either pyrotechnic (smoke and flames) or non-pyrotechnic (non-combustible)."
-        }
+        "header": "Visual Distress Signals",
+        "content": [
+            "Visual Distress Signals (VDSs) allow boat operators to signal for help in the event of an emergency.",
+            "VDSs are classified as day signals (visible in bright sunlight), night signals (visible at night) or both day and night signals.",
+            "VDSs are either pyrotechnic (smoke and flames) or non-pyrotechnic (non-combustible).",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current visual distress signals information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Coast Guard Data": {
-        "name": "Coast Guard Emergency Contact",
+        "name": "Coast Guard Emergency Contact Info/Content",
         "image": "",
-        "description": {
-            "cgecHeader": "Coast Guard Emergency Contact",
-            "cgec1": "Seventh District Command Center Number: \n(305) 415-6800",
-            "cgec2": "*For maritime emergency use only.*"
-        }
+        "header": "Coast Guard Emergency Contact",
+        "content": [
+            "Seventh District Command Center Number: \n(305) 415-6800",
+            "*For maritime emergency use only.*",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current coast guard emergency contact information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Lights and Sound Devices Data": {
-        "name": "Lights and Sound Devices",
+        "name": "Lights and Sound Devices Info/Content",
         "image": "",
-        "description": {
-            "lightsHeader": "Lights",
-            "lights1": "All vessels must be equipped with prescribed navigation lights when operated at night in accordance with the Boating Safety Laws.",
-            "lights2": "Operators of all vessels must comply with the requirements for the type and use of lights when anchored or underway from sunset to sunrise. \n",
-            "SoundDevicesHeader": "Sound Devices",
-            "soundDevices1": "All vessels 4.9 meters (16 feet) or more in length must have on board the proper signal device for use during nighttime operation or inclement weather where visibility is greatly reduced."
-        }
+        "header": "Lights and Sound Devices",
+        "content": [
+            "All vessels must be equipped with prescribed navigation lights when operated at night in accordance with the Boating Safety Laws.",
+            "Operators of all vessels must comply with the requirements for the type and use of lights when anchored or underway from sunset to sunrise. \n \n",
+            "Sound Devices \n",
+            "All vessels 4.9 meters (16 feet) or more in length must have on board the proper signal device for use during nighttime operation or inclement weather where visibility is greatly reduced.",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current light and sound devices information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Diver Data": {
-        "name": "Diver's Flag info/content",
+        "name": "Diver's Flag Info/Content",
         "image": "",
-        "description": {
-            "diversFlagHeader": "Diver's Flag",
-            "df1":  "The diver's flag will be at least 300 mm (12 inches) square, colored red with a white 500 mm (2 inches) stripe running diagonally from the top staff corner to the bottom fly corner. Boat owners will stay at least 30.5 meters (100 feet) away from the displayed flag.",
-            "df2":  "Scuba divers and snorkelers should not place a flag in an area already occupied by other boaters or where their diving operation will impede the normal flow of waterway traffic. Divers also should follow all of the water safety rules themselves."
-        }
+        "header": "Diver's Flag",
+        "content": [
+            "The diver's flag will be at least 300 mm (12 inches) square, colored red with a white 500 mm (2 inches) stripe running diagonally from the top staff corner to the bottom fly corner. Boat owners will stay at least 30.5 meters (100 feet) away from the displayed flag.",
+            "Scuba divers and snorkelers should not place a flag in an area already occupied by other boaters or where their diving operation will impede the normal flow of waterway traffic. Divers also should follow all of the water safety rules themselves.",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current diver's flag information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Fire Data": {
         "name": "Fire Extinguishers Signals Info/Content",
         "image": "",
-        "description": {
-            "fireExtinguishersHeader": "Fire Extinguishers",
-            "fireExt1": "All vessels, as herein designated, must be equipped with a serviceable U. S. Coast Guard approved fire extinguisher of the type and capacity indicated:",
-            "fireExt2": "1. All inboard and inboard/outboard vessels, regardless of size, and all motor vessels having closed compartments wherein portable fuel tanks are stored or having permanently installed fuel tanks shall have a hand portable or semi-portable fire extinguisher using carbon dioxide (CO2), foam, or other chemical ingredients such as is commonly used for extinguishing gasoline fires or petroleum product fires. Such fire extinguisher shall be approved by the U.S. Coast Guard.",
-            "fireExt3": "2. All vessels equipped with any butane gas, propane gas, kerosene, gasoline or petroleum product consuming device except outboard motors, such as a stove or lantern shall have a hand portable or semi-portable fire extinguisher using carbon dioxide (CO2), foam, or other chemical ingredient such as is commonly used for extinguishing a fire produced by the use of such device. Such fire extinguisher shall be approved by the U.S. Coast Guard.",
-            "fireExt4": "3. All motor vessels having closed or semi-closed cabins and any vessel with sleeping accommodations shall have a hand portable fire extinguisher or semi-portable fire extinguisher using carbon dioxide (CO2), foam, or other chemical ingredients such as is commonly used for extinguishing fires. Such fire extinguisher shall be approved by the U.S. Coast Guard. \n\n",
-            "space": "\n",
-            "fireExt5": "To check this style of extinguisher, depress the green button. If it is fully charged, the green button should pop back out immediately. ",
-            "fireExt6": "On this style of fire extinguisher, the needle indicator should be in the 'full' range." 
-        }
+        "header": "Fire Extinguishers",
+        "content": [
+            "All vessels, as herein designated, must be equipped with a serviceable U. S. Coast Guard approved fire extinguisher of the type and capacity indicated:",
+            "1. All inboard and inboard/outboard vessels, regardless of size, and all motor vessels having closed compartments wherein portable fuel tanks are stored or having permanently installed fuel tanks shall have a hand portable or semi-portable fire extinguisher using carbon dioxide (CO2), foam, or other chemical ingredients such as is commonly used for extinguishing gasoline fires or petroleum product fires. Such fire extinguisher shall be approved by the U.S. Coast Guard.",
+            "2. All vessels equipped with any butane gas, propane gas, kerosene, gasoline or petroleum product consuming device except outboard motors, such as a stove or lantern shall have a hand portable or semi-portable fire extinguisher using carbon dioxide (CO2), foam, or other chemical ingredient such as is commonly used for extinguishing a fire produced by the use of such device. Such fire extinguisher shall be approved by the U.S. Coast Guard.",
+            "3. All motor vessels having closed or semi-closed cabins and any vessel with sleeping accommodations shall have a hand portable fire extinguisher or semi-portable fire extinguisher using carbon dioxide (CO2), foam, or other chemical ingredients such as is commonly used for extinguishing fires. Such fire extinguisher shall be approved by the U.S. Coast Guard. \n\n \n",
+            "To check this style of extinguisher, depress the green button. If it is fully charged, the green button should pop back out immediately. ",
+            "On this style of fire extinguisher, the needle indicator should be in the 'full' range.",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current fire extinguishers information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Federally Controlled Waters": {
         "name": "Federally Controlled Waters Info/Content",
         "image": "",
-        "description": {
-            "fcwHeader": "Federally Controlled Waters",
-            "fcw1": "Boat and PWC operators must observe federal regulations when boating on:",
-            "fcw2": "\t - Coastal Waters",
-            "fcw3": "\t - The Great Lakes",
-            "fcw4": "\t - Territorial Seas",
-            "fcw5": "Waters which are two miles wide or wider and are connected to one of the above."
-        }
+        "header": "Federally Controlled Waters",
+        "content": [
+            "Boat and PWC operators must observe federal regulations when boating on:",
+            "\t - Coastal Waters\t - The Great Lakes\t - Territorial Seas",
+            "Waters which are two miles wide or wider and are connected to one of the above.",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current federally controlled waters information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Flame Arrestors": {
         "name": "Flame Arrestors Info/Content",
         "image": "",
-        "description": {
-            "flameArrestorsHeader": "Flame Arrestors",
-            "fa1": "Every motorboat using gasoline as fuel, except outboard motors, shall have the carburetor or carburetors of every engine therein equipped with a U.S. Coast Guard approved flame arrestor or backfire trap."
-        }
+        "header": "Flame Arrestors",
+        "content": [
+            "Every motorboat using gasoline as fuel, except outboard motors, shall have the carburetor or carburetors of every engine therein equipped with a U.S. Coast Guard approved flame arrestor or backfire trap.",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current flame arrestors information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Ditch Bag": {
         "name": "Ditch Bag Info/Content",
         "image": "",
-        "description": {
-            "ditchBagHeader": "Ditch Bag",
-            "db1": "When you prepare your ditch bag, here's what to look for: \n",
-            "db2": "- VHF RADIO should be waterproof like the Lowrance unit at right above. \n",
-            "db3": "- PLB such as the Aqualink View activates on command to communicate a position to appropriate rescuers.\n",
-            "db4": "- FLARES should be part of your safety kit and are required by law in most federally patrolled water. If you leave the boat, take them with you.\n",
-            "db5": "- STROBES like the ACR C-Strobe can save precious time when activated. \n",
-            "db6": "- POWERFLARE SAFETY LIGHT and strobes like this (in red case, bottom right) emit SOS or flashing lights to alert rescue personnel.\n",
-            "db7": "- SIGNAL MIRRORS can alert rescue personnel in bright daylight, cost practically nothing and are recommended by the USCG.\n",
-            "db8": "- WHISTLES are great at attracting rescue personnel when visibility is poor.\n",
-            "db9": "- ROPE can keep the crew together should a lifeboat not be available.\n",
-            "db10": "- A GERBER HINDERER serrated blunt-point knife is less likely to puncture a life raft and will make quick work of slicing ropes or bandages.\n",
-            "db11": "- FIRST AID KITS should include a ready supply of essential medications you may need on a frequent basis.\n",
-            "db12": "- DRINKING WATER should be accompanied by a measuring device to carefully apportion it to maintain life and morale.\n",
-            "db13": "- SUNSCREEN and Dramamine can ease discomfort adrift.\n",
-            "db14": "- CASH and a copy of your passport in a sandwich bag can facilitate a return to America from foreign waters.\n"
-        }
+        "header": "Ditch Bag",
+        "content": [
+            "When you prepare your ditch bag, here's what to look for: \n",
+            "- VHF RADIO should be waterproof like the Lowrance unit at right above. \n",
+            "- PLB such as the Aqualink View activates on command to communicate a position to appropriate rescuers.\n",
+            "- FLARES should be part of your safety kit and are required by law in most federally patrolled water. If you leave the boat, take them with you.\n",
+            "- STROBES like the ACR C-Strobe can save precious time when activated. \n",
+            "- POWERFLARE SAFETY LIGHT and strobes like this (in red case, bottom right) emit SOS or flashing lights to alert rescue personnel.\n",
+            "- SIGNAL MIRRORS can alert rescue personnel in bright daylight, cost practically nothing and are recommended by the USCG.\n",
+            "- WHISTLES are great at attracting rescue personnel when visibility is poor.\n",
+            "- ROPE can keep the crew together should a lifeboat not be available.\n",
+            "- A GERBER HINDERER serrated blunt-point knife is less likely to puncture a life raft and will make quick work of slicing ropes or bandages.\n",
+            "- FIRST AID KITS should include a ready supply of essential medications you may need on a frequent basis.\n",
+            "- DRINKING WATER should be accompanied by a measuring device to carefully apportion it to maintain life and morale.\n",
+            "- SUNSCREEN and Dramamine can ease discomfort adrift.\n",
+            "- CASH and a copy of your passport in a sandwich bag can facilitate a return to America from foreign waters.\n",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current ditch bag information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Emergency Cut-Off Switch": {
-        "name": "Emergency Cut-Off Switch",
+        "name": "Emergency Cut-Off Switch Info/Content",
         "image": "",
-        "description": {
-            "ecosHeader": "Emergency Cut-Off Switch",
-            "ecos1": "No person shall operate or give permission to operate any vessel less than 7.3 meters (24 feet) in length, having an open cockpit and having more than fifty (50) horsepower, unless the said vessel is equipped with an emergency engine or motor shut-off switch.",
-            "ecos2": "The shut-off switch shall be a lanyard-type and shall be attached to the person, clothing, or personal flotation device of the operator. It shall be installed so that when any removal of the operator from the normal operating station will result in the immediate shut-off of the engine.",
-            "ecos3": "Any person operating a personal watercraft that does not have self-circling capabilities must have a lanyard-type engine shut-off switch, which must be attached to the person, clothing, or personal flotation device of the operator. \n"
-        }
+        "header": "Emergency Cut-Off Switch",
+        "content": [
+            "No person shall operate or give permission to operate any vessel less than 7.3 meters (24 feet) in length, having an open cockpit and having more than fifty (50) horsepower, unless the said vessel is equipped with an emergency engine or motor shut-off switch.",
+            "The shut-off switch shall be a lanyard-type and shall be attached to the person, clothing, or personal flotation device of the operator. It shall be installed so that when any removal of the operator from the normal operating station will result in the immediate shut-off of the engine.",
+            "Any person operating a personal watercraft that does not have self-circling capabilities must have a lanyard-type engine shut-off switch, which must be attached to the person, clothing, or personal flotation device of the operator. \n",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current emergency cut-off switch information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     },
 
     "Personal Flotation Devices": {
-        "name": "Personal Flotation Devices",
+        "name": "Personal Flotation Devices Info/Content",
         "image": "",
-        "description": {
-            "pfdHeader": "Personal Flotation Devices",
-            "pfd1": "Vessels less than 4.9 meters (16 feet) in length will have aboard a type I, II, III, or V personal flotation device for each person.Vessels 4.9 meters (16 feet) and over in length shall have aboard a type I, II, III, or V personal flotation device for each person and at least one type IV on board as a throwable device. Each person operating, riding on, or being towed by a personal watercraft must wear a personal flotation device approved by the U.S.Coast Guard.\n",
-            "pfd2": "All persons under eight (8) years of age, on any vessel, must, at all times, wear a U. S. Coast Guard approved personal flotation device that must be strapped, snapped, or zipped securely in place; except, that no personal flotation device should be required when inside an enclosed cabin or enclosed sleeping space. \n",
-            "pfd3": "CAUTION: ",
-            "pfd4": "Personal flotation devices must be accessible and of the proper size. Those that are torn, rotted, or damaged, lose their approval. \n",
-            "pfd5": "CAUTION: ",
-            "pfd6": "A type V personal flotation device is a PFD approved for restricted uses. Type V PFD's must be worn in open boats and when on the deck of larger boats in order to be classified as U. S. Coast Guard approved. \n"
-        }
+        "header": "Personal Flotation Devices",
+        "content": [
+            "Vessels less than 4.9 meters (16 feet) in length will have aboard a type I, II, III, or V personal flotation device for each person.Vessels 4.9 meters (16 feet) and over in length shall have aboard a type I, II, III, or V personal flotation device for each person and at least one type IV on board as a throwable device. Each person operating, riding on, or being towed by a personal watercraft must wear a personal flotation device approved by the U.S.Coast Guard.\n",
+            "All persons under eight (8) years of age, on any vessel, must, at all times, wear a U. S. Coast Guard approved personal flotation device that must be strapped, snapped, or zipped securely in place; except, that no personal flotation device should be required when inside an enclosed cabin or enclosed sleeping space. \n",
+            "CAUTION: \n Personal flotation devices must be accessible and of the proper size. Those that are torn, rotted, or damaged, lose their approval. \n",
+            "CAUTION: \n A type V personal flotation device is a PFD approved for restricted uses. Type V PFD's must be worn in open boats and when on the deck of larger boats in order to be classified as U. S. Coast Guard approved. \n",
+            "\n \n \n Last Updated: 4/7/2020",
+            "\n \n For current personal flotation devices information, please visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
+        ]
     }
 
 
