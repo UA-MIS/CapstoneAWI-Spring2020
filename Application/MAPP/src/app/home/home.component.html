@@ -6,7 +6,7 @@
     
     <GridLayout columns="*,*,*,*,auto,auto" horizontalalignment="center" width="100%">
         <Label id="buoyButton" col= "0" text="Buoys" textwrap="false" fontsize="12pt" textalignment="center"
-            style="background: rgb(151, 151, 151)" (tap)="toggleBuoyMarkers()" onclick="buoysVisible()">
+            style="background: rgb(151, 151, 151)" (tap)="toggleBuoyMarkers()">
         </Label>
         <Label col= "1" text="Waves" textwrap="false" fontsize="12pt" textalignment="center"
             style="background: rgb(151, 151, 151)" (tap)="toggleWaves()">
@@ -37,11 +37,5 @@
             (mapReady)="onMapReady($event)">
         </Mapbox>
     </ContentView>
+
 </GridLayout>
-<script>
-    function buoysVisible()
-    {
-        var x = document.getElementById("buoyButton");
-        x.style.background = "coral";
-    }
-</script>

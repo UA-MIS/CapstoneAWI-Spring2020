@@ -22,7 +22,7 @@ const localMarker: ImageSource = <ImageSource>fromFile(folderPath);
 */
 export class HomeComponent implements OnInit {
     
-    blackMarker: ImageSource = <ImageSource>fromResource("blackMarker");
+    //blackMarker: ImageSource = <ImageSource>fromResourceSync("blackMarker");
     buoyData;
     items: Array<DataItem>;
     locationData;
@@ -62,7 +62,7 @@ export class HomeComponent implements OnInit {
                 this.buoyData = el;
                 var buoyCount = (this.buoyData.length)-1;
 
-                //loop through array of buoyrs
+                //loop through array of buoys
                 var i;
                 for (i = 0; i < buoyCount; i++) {
                     // check if buoy is in the gulf of mexico 
