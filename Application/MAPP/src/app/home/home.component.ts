@@ -44,13 +44,61 @@ export class HomeComponent implements OnInit {
                 console.log("Current user speed: " + userLocation.speed);
             }
         )
+        
+        this.mapbox.addMarkers([
+            <MapboxMarker>{
+                id: 1,
+                lat: 25,
+                lng: -90.5,
+                title: '15',
+                iconPath: 'app/home/assets/marker15.png',
+                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
+                onCalloutTap: marker => alert("please work")
+            },
+            <MapboxMarker>{
+                id: 1,
+                lat: 24.7,
+                lng: -90.1,
+                title: '20',
+                iconPath: 'app/home/assets/marker20.png',
+                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
+                onCalloutTap: marker => alert("please work")
+            },
+            <MapboxMarker>{
+                id: 1,
+                lat: 24.3,
+                lng: -89.8,
+                title: '8',
+                iconPath: 'app/home/assets/marker8.png',
+                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
+                onCalloutTap: marker => alert("please work")
+            },
+            <MapboxMarker>{
+                id: 1,
+                lat: 24,
+                lng: -89.5,
+                title: 'Test Marker',
+                iconPath: 'app/home/assets/blackMarker14px.png',
+                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
+                onCalloutTap: marker => alert("please work")
+            },
+            <MapboxMarker>{
+                id: 1,
+                lat: 23.5,
+                lng: -89,
+                title: '12',
+                iconPath: 'app/home/assets/marker12.png',
+                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
+                onCalloutTap: marker => alert("please work")
+            },
+        ])
         */
     }
 
     toggleBuoyMarkers() {
 
             this.buoyService.getBuoyData().subscribe(el => {
-                //get array of buoys
+                //pull array of buoys
                 this.buoyData = el;
                 var buoyCount = (this.buoyData.length)-1;
 
@@ -104,6 +152,7 @@ export class HomeComponent implements OnInit {
                             lat: this.buoyData[i].latitude,
                             lng: this.buoyData[i].longitude,
                             title: this.buoyData[i].buoyNumber,
+                            iconPath: 'app/home/assets/marker12.png',
                             onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
                             onCalloutTap: marker =>
                                 alert("Buoy ID: '" + marker.title + "'" + '\n'
