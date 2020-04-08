@@ -5,8 +5,6 @@ import { map } from "rxjs/operators";
 import { MapboxMarker, MapboxViewApi } from "nativescript-mapbox";
 import { Observable } from 'rxjs';
 import { registerElement } from "nativescript-angular/element-registry";
-import { Folder, path, knownFolders } from "tns-core-modules/file-system";
-import { ImageSource, fromFile, fromResource, fromBase64 } from "tns-core-modules/image-source";
 
 registerElement("Mapbox", () => require("nativescript-mapbox").MapboxView);
 
@@ -15,19 +13,13 @@ registerElement("Mapbox", () => require("nativescript-mapbox").MapboxView);
     templateUrl: "./home.component.html",
     providers: [BuoyService]
 })
-/*
-const folder: Folder = <Folder>knownFolders.currentApp();
-const folderPath: string = path.join(folder.path, "app/home/assets/blackMarker.png");
-const localMarker: ImageSource = <ImageSource>fromFile(folderPath);
-*/
+
 export class HomeComponent implements OnInit {
-    
-    //blackMarker: ImageSource = <ImageSource>fromResourceSync("blackMarker");
-    buoyData;
     items: Array<DataItem>;
+    buoyData;
     locationData;
+
     mapbox: MapboxViewApi
-    //markerTest = localMarker;
 
     constructor(private _itemService: DataService, private buoyService: BuoyService) { }
 
@@ -73,14 +65,14 @@ export class HomeComponent implements OnInit {
                         let waveDirection: string = '';
                         let gustDirection: string = '';
                         let buoyDescription: string = '';
-                        
-                        if (this.buoyData[i].windDirection != 'MM' ) {
+
+                        if (this.buoyData[i].windDirection != 'MM') {
                             windDirection = this.buoyData[i].windDirection + '\n';
                         } else {
                             windDirection = '\n';
                         }
                         if (this.buoyData[i].windSpeed != 'MM') {
-                            buoyDescription = buoyDescription + "Wind: " + this.buoyData[i].windSpeed + windDirection ;
+                            buoyDescription = buoyDescription + "Wind: " + this.buoyData[i].windSpeed + windDirection;
                         }
                         if (this.buoyData[i].gustDirection) {
                             gustDirection = this.buoyData[i].gustDirection + '\n';
@@ -104,6 +96,7 @@ export class HomeComponent implements OnInit {
                         if (this.buoyData[i].waterTemperature != 'MM') {
                             buoyDescription = buoyDescription + "Water Temperature: " + this.buoyData[i].waterTemperature + '\n';
                         }
+
                         
                         // create temporary variable to hold marker
                         var markerZ = <MapboxMarker>{
@@ -111,13 +104,12 @@ export class HomeComponent implements OnInit {
                             lat: this.buoyData[i].latitude,
                             lng: this.buoyData[i].longitude,
                             title: this.buoyData[i].buoyNumber,
-                            //iconPath: this.blackMarker,
                             onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
-                            onCalloutTap: marker => 
+                            onCalloutTap: marker =>
                                 alert("Buoy ID: '" + marker.title + "'" + '\n'
-                                + " Longitude: '" + marker.lng + "'" + '\n'
-                                + " Latitude: '" + marker.lat + "'" + '\n'
-                                + buoyDescription)
+                                    + " Longitude: '" + marker.lng + "'" + '\n'
+                                    + " Latitude: '" + marker.lat + "'" + '\n'
+                                    + buoyDescription)
                         }
 
                         // add marker to mapview
@@ -128,6 +120,7 @@ export class HomeComponent implements OnInit {
                 }
             });
     }
+
     toggleWaves() {
         this.mapbox.removeMarkers();
     }
@@ -147,7 +140,6 @@ export class HomeComponent implements OnInit {
     toggleChlorophyll() {
         this.mapbox.removeMarkers();
     }
-
     clearMap() {
         this.mapbox.removeMarkers();
     }
