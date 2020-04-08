@@ -45,11 +45,11 @@ export class BuoyService {
         buoy['averageWavePeriod'] = data[13];
         buoy['waveDirection'] = data[14];
         buoy['pressure'] = data[15];
-        buoy['airTemperature'] = data[16];
-        buoy['waterTemperature'] = data[17];
-        buoy['dewPoint'] = data[18];
-        buoy['visibility'] = data[19];
-        buoy['pressureTendency'] = data[20];
+        buoy['pressureTendency'] = data[16];
+        buoy['airTemperature'] = data[17];
+        buoy['waterTemperature'] = data[18];
+        buoy['dewPoint'] = data[19];
+        buoy['visibility'] = data[20];
         buoy['tide'] = data[21];
 
         buoys.push(buoy);

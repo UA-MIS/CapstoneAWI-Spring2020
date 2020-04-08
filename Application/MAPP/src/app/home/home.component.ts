@@ -108,7 +108,7 @@ export class HomeComponent implements OnInit {
                     // check if buoy is in the gulf of mexico 
                     if (this.buoyData[i].latitude <= 32 && this.buoyData[i].latitude >= 18 
                             && this.buoyData[i].longitude <= -78 && this.buoyData[i].longitude >= -99) {
-                        
+
                         let windDirection: string = '';
                         let waveDirection: string = '';
                         let gustDirection: string = '';
@@ -120,7 +120,7 @@ export class HomeComponent implements OnInit {
                             windDirection = '\n';
                         }
                         if (this.buoyData[i].windSpeed != 'MM') {
-                            buoyDescription = buoyDescription + "Wind: " + this.buoyData[i].windSpeed + windDirection;
+                            buoyDescription = buoyDescription + "Wind: " + this.buoyData[i].windSpeed + " m/s " + windDirection;
                         }
                         if (this.buoyData[i].gustDirection) {
                             gustDirection = this.buoyData[i].gustDirection + '\n';
@@ -128,7 +128,7 @@ export class HomeComponent implements OnInit {
                             gustDirection = '\n';
                         }
                         if (this.buoyData[i].gustSpeed != 'MM') {
-                            buoyDescription = buoyDescription + "Gusts: " + this.buoyData[i].gustSpeed + " " + gustDirection;
+                            buoyDescription = buoyDescription + "Gusts: " + this.buoyData[i].gustSpeed + " m/s " + gustDirection;
                         }
                         if (this.buoyData[i].waveDirection != 'MM') {
                             waveDirection = this.buoyData[i].waveDirection + '\n';
@@ -156,8 +156,8 @@ export class HomeComponent implements OnInit {
                             onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
                             onCalloutTap: marker =>
                                 alert("Buoy ID: '" + marker.title + "'" + '\n'
-                                    + " Longitude: '" + marker.lng + "'" + '\n'
-                                    + " Latitude: '" + marker.lat + "'" + '\n'
+                                    + "Longitude: '" + marker.lng + "'" + '\n'
+                                    + "Latitude: '" + marker.lat + "'" + '\n'
                                     + buoyDescription)
                         }
 
