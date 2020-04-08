@@ -10,7 +10,7 @@
 
     "Reporting": {
         "name": "Reporting Data",
-        "image": "",
+        "images": "",
         "description": {
             "mandatoryReportingHeader": "Snapper Check",
             "mandRep1": "Species with MANDATORY reporting:",
@@ -73,6 +73,33 @@
         }
     },
 
+    "Reminders/Regulation Changes": {
+        "name": "Saltwater Reminders and Regulation Changes",
+        "image": "",
+        "description": {
+            "reminderHeader": "****REMINDER****",
+            "reminder1": "Alabama's 2020 private angler red snapper season opens Friday, May 22, 2020. The season is anticipated to last for 35 days and is scheduled to close on Sunday, July 19, 2020. Weekends only (Friday-Monday).",
+            "reminder2": "Yellowfin Tuna now has a creel limit of 3 per person.",
+            "reminder3": "Recreational harvest of gray triggerfish will open at 12:01 a.m. on March 1, 2020, and close at 12:01 a.m., local time, on May 2, 2020.",
+            "reminder4": "Flounder - possessing, taking, or attempting to take flounder harvested in the waters of Alabama for commercial or recreational purposes from November 1 through November 30 is prohibited.",
+            "regulationChanges": "Regulation Changes Beginning August 1, 2019",
+            "regCobia": "Cobia",
+            "regCobia2": "36 inches fork length",
+            "regSeaTrout": "Spotted Sea Trout",
+            "regSeaTrout2": {
+                "SSTbullet1": "Slot Length is 15 inches total length to 22 inches total length",
+                "SSTbullet2": "6 per person, per day with one over 22 inches total length allowed"
+            },
+            "regFlounder": "Flounder",
+            "regFlounder2": {
+                "Fbullet1": "14 inches total length (recreational and commercial)",
+                "Fbullet2": "Recreational creel limit is 5 per person",
+                "Fbullet3": "Commercial creel limit is 40 per person or 40 per vessel",
+                "Fbullet4": "Closed season for flounder is November 1 through November 30 for both recreational and commercial anglers"
+            }
+        }   
+    },
+
     "Freshwater Fishing": {
         "name": "Freshwater Fishing Data",
         "image": "",
@@ -95,10 +122,165 @@
             "courtesyCard": "Fishing Courtesy Card",
             "certificate": "First Fish Certificate",
             "contacts": "Contacts - Freshwater Fishing",
-            "licensePlate": "Freshwater Fishing License Plate"
+            "licensePlate": "Freshwater Fishing License Plate",
+            "freshwaterFishingLink": "https://www.outdooralabama.com/fishing/freshwater-fishing"
 
         }
+    },
+
+    "Silver/Jumping Carp Urgency": {
+        "name": "Silver/Jumping Carp Urgency",
+        "image": "",
+        "description": {
+            "sjcHeader": "Invasive Asian Carp: the Feral Hog of Alabama's Waterways",
+            "sjc1": "Asian carp have long been a problem in other parts of the country, but these fish are now working their way into Alabama. Because of the threat posed by Asian carp, the Fisheries Section of the Alabama Division of Wildlife and Freshwater Fisheries is working to protect the state’s aquatic resources from this invasive species.",
+            "sjc2": "Four species of Asian carp have been introduced in the U.S. Those species include silver carp, bighead carp, grass carp, and black carp. Of these species, silver and black carp are the greatest immediate threat to Alabama’s aquatic resources.",
+            "sjc3": "In the same way feral hogs devastate habitat resources for native wildlife, silver carp have the potential to outcompete with other native species for food, including important game fish. Currently, the area of concern for silver carp in Alabama is the Tennessee and Tombigbee Rivers.",
+            "sjc4": "These invasive fish can also harm boaters. Silver carp tend to jump out of the water when startled. A jumping carp strike can cause serious injury to anyone on board a vessel. This occurs most commonly in shallow water. If boaters experience jumping carp, they should slowly retreat from the area to avoid impact.",
+            "sjc5": "Alabama has joined forces with the Tennessee Wildlife Resources Agency and the Mississippi Department of Wildlife, Fisheries and Parks to work on silver and other Asian carp species management and control. A multiple-state group called the Mississippi Interstate Cooperative Resources Association has also been formed by the 28 states in the Mississippi River basin to collectively address this issue."          
+        }
+    },
+
+    "Freshwater Game Fish": {
+        "name": "Freshwater Game Fish",
+        "image": "",
+        "description": {
+            "blackBass": "Black Bass - largemouth, smallmouth, spotted, Alabama, shoal, and those species formerly known as 'redeye' bass, which are now known separately as Coosa, Warrior, Cahaba, Tallapoosa, and Chattahoochee bass, based on their respective drainages. The Alabama bass was formerly known as spotted bass in the Mobile drainage.",
+            "bream": "Bream (Sunfish) - rock bass, flier, shadow bass, warmouth, redbreast, bluegill, longear, and redear (shellcracker).",
+            "crappie": "Crappie - black and white crappie.",
+            "temperateBass": "Temperate Bass - saltwater striped, white, and yellow bass and any hybrids thereof.",
+            "pickerel": "Pickerel - chain, redfin, and grass pickerel.",
+            "perch": "Perch - sauger(jack), walleye, and yellow perch.",
+            "trout": "Trout - rainbow trout."
+        }
+    },
+
+    "Freshwater Non-Game Fish": {
+        "name": "Commercial or Non-Game Fish",
+        "image": "",
+        "description": {
+            "ngf1": "Drum",
+            "ngf2": "Carp",
+            "ngf3": "Catfish",
+            "ngf4": "Paddlefish",
+            "ngf5": "Sucker",
+            "ngf6": "Bowfin",
+            "ngf7": "Gar",
+            "ngf8": "Mullet"
+        }
+    },
+
+    "Aquatic Nuisance Species": {
+        "name": "Aquatic Nuisance Species",
+        "image": "",
+        "description": {
+            "ans1": "Only you can help prevent the spread of aquatic nuisance species.",
+            "ans2": "Remove any visible mud, plants, fish or animals before transporting equipment.",
+            "ans3": "Eliminate water from equipment before transporting.",
+            "ans4": "Clean and dry anything that came in contact with water (boats, trailers, equipment, clothing, dogs, etc.).",
+            "ans5": "It is illegal to release bait or stock fish or other aquatic organisms in Alabama without a specific permit. \nNever release plants, fish or animals into a body of water unless they came out of that body of water.  Use aquatic baits already present in the waters.  Possession or distribution of some plants is illegal.",
+            "ans6": "Anglers and boaters need to do what they can to prevent the spread of nuisance aquatic species.",
+            "ans7": "Asian Carp",
+            "ans8": "Learn more about the Asian Carp and why it is a nuisance species at https://www.outdooralabama.com/freshwater-fishing/aquatic-nuisance-species"
+
+        }
+    },
+
+    "Aquatic Plants of Alabama": {
+        "name": "Aquatic Plants of Alabama",
+        "image": "",
+        "description": {
+            "plants1": "Alabama Regulation 220-2-124: Alabama Nonindigenous Aquatic Plant Control Act",
+            "plants2": "For  the purposes of enforcement of Sections 9-20-1 through 9-20-7, Code of Alabama 1975, enacted by Act No. 95-767, as the 'Alabama Nonindigenous Aquatic Plant Control Act,' the following list of all nonindigenous aquatic plants which are prohibited by Section 9-20-3 from being introduced or placed or caused to be introduced or placed into public waters of the state is established:",
+            "plants3": "African elodea, alligatorweed, Brazilian elodea, curlyleaf pondweed, Eurasian watermilfoil, floating waterhyacinth, giant salvinia, hydrilla, hygrophila, limnophila, parrot-feather, purple loosestrife, rooted waterhyacinth, spinyleaf naiad, water-aloe, water lettuce, water chestnut, and water spinach",
+            "plants4": "Aquatic plants that are illegal under federal law as of June 30, 2006, include: mosquito fern or water velvet (Azolla pinnata), Mediterranean clone of caulerpa (Caulerpa taxifolia), anchored waterhyacinth (Eichornia azurea), hydrilla (Hydrilla verticillato), Miramar weed (Hygrophila polysperma), water-spinach (Ipomoea aquatica), Lagarosiphon major, ambulia (Limnophila sessiliflora), Melaleuca quinquenervia, Monochoria hastata, Ottelia alismoides, arrowhead (Sagittaria sagittifola), giant Salvina (Salvinia auriculata, S. biloba, S. herzogii, and S. molesta), wetland nightshade (Solanum tampicense), exotic bur-reed (Sparganium erectum).",
+            "plants5": "For complete information, plant guides, and stocking rates, please visit https://www.outdooralabama.com/freshwater-fishing/aquatic-plants-alabama"
+        }
+    },
+
+    "Pond Management": {
+        "name": "Pond Management",
+        "image": "",
+        "description": {
+            "pond1": "Small ponds and lakes represent a significant portion of Alabama’s freshwater resources. Alabama has an estimated 50,000 ponds that cover approximately 150,000 acres. Most ponds that have been stocked with largemouth bass and bream (bluegill and redear sunfish) can provide excellent recreational opportunities when properly managed.",
+            "pond2": "Ponds are also important for wildlife, livestock watering, irrigation, swimming, fire protection, and erosion control. Man-made ponds also alleviate the fishing pressure on our public streams and lakes. In many areas of the state, ponds are the only local source of fishing; therefore, the Alabama Department of Conservation and Natural Resources, Division of Wildlife and Freshwater Fisheries, is vitally interested in helping anglers manage their ponds. The Alabama Cooperative Extension System also has information about pond management and lists of pond consultants.",
+            "pondpdf": "The entire Sportfish Management in Alabama Ponds is available in one PDF document.  This book serves as a management guide for pond and small lake owners who desire a high quality largemouth bass and bream fishery. Many of the terms used in pond management are defined in the glossary.  Pond management videos are also available; they cover most of the same subjects as in the book.",
+            "pondvideos": "Videos on Pond Management - Videos are available by topic, sub-topic or as a two-hour documentary.",
+            "pondExtraInfo": "For complete information, pdf documents, videos on pond management, and aquatic plants, please visit https://www.outdooralabama.com/where-fish-alabama/ponds"
+        }
+    },
+
+    "Public Water Fish Stockings": {
+        "name": "Public Water Fish Stockings",
+        "image": "",
+        "description": {
+            "stockingInfo": "Stocking information of public freshwaters in Alabama can be accessed at the link below.",
+            "stockingInfo2": "https://www.outdooralabama.com/freshwater-fishing/public-water-fish-stockings"
+        }
+    },
+
+    "State Record / Angler Recognition": {
+        "name": "State Record / Angler Recognition",
+        "image": "",
+        "description": {
+            "recordPageHeader": "The Angler Recognition Program addresses four separate objectives.  The first goal is to help promote fishing in Alabama by establishing a method to publicly recognize anglers who catch large or trophy-sized fish from Alabama waters.  Second, it will provide Fisheries Section biologists with valuable catch information for following fishery trends in the reservoirs they manage. The third objective is to establish a system for maintaining lake records for many of Alabama’s black bass species.  Finally, it will allow anglers an opportunity to have their catch information compiled, analyzed, and reported to them to help them discover when, where, and on what types of lures big fish are caught.",
+            "stateRecordFreshHeader": "Alabama State Record Freshwater Fish",
+            "stateRecordFreshLink": "https://www.outdooralabama.com/state-record-angler-recognition/state-record-freshwater-fish",
+            "stateRecordFreshInfo": "The freshwater sport fish caught in Alabama by hook and line have been listed by the Alabama Department of Conservation.  The list includes fish since the 1950s. The certification process includes two witnesses of the weighing on certified scales; species identification by a state fisheries biologist or certified fisheries biologist; and a side-view photograph.  Applications and rules are available as a PDF.",
+            "stateRecordApplication": "https://www.outdooralabama.com/sites/default/files/fishing/Freshwater%20Fishing/State%20and%20or%20Lake%20Record%2020180226.pdf",
+            "stateFisheriesBiologists": "https://www.outdooralabama.com/freshwater-fishing/fisheries-section-technical-staff",
+            "lakeRecordCertificationHeader": "Lake Record Certification",
+            "lakeRecordCertificationLink":"https://www.outdooralabama.com/state-record-angler-recognition/state-record-freshwater-fish",
+            "lakeRecordCertificationInfo": "The Lake Record Certification will honor those individuals who catch the largest species of black bass (largemouth bass, spotted bass, smallmouth bass, or redeye bass) from each reservoir or lake, and will provide the Fisheries Section with useful statistics on the number of large fish caught from Alabama reservoirs. A detailed description of the rules and requirements can be found on the Lake Record Application. To be considered for a Lake Record, fish must meet the minimum weight requirements listed in the table, have two witnesses of the weighing on certified scales; species identification by a state fisheries biologist or certified fisheries biologist; and include a side-view photograph.  The application must be completed and returned within three months of the catch.",
+            "lakeReocrdCertificationInfo2": "Qualified anglers will receive a certificate commemorating their catch and will be recognized in the B.A.I.T. Report of the Alabama of Wildlife and Freshwater Fisheries Division.",
+            "baitReport": "https://www.outdooralabama.com/fishing/tournaments",
+            "anglerCertificationsInfo1": "The Master and Trophy Angler Certifications are intended to honor individuals who catch large sportfish from Alabama’s public waters.  A detailed description of the rules and requirements can be found on the Master/Trophy Angler Application.  To be eligible for recognition, fish must meet the minimum length or weight requirements listed in the table; and the application must be completed with a side picture of the fish next to a ruler and a picture of the angler with the fish.  The application packet must be returned within three months of the catch.",
+            "anglerCertificationsInfo2": "Qualified anglers will receive a certificate commemorating their catch and a decal to be displayed on their boat or truck. Each angler will be recognized in the B.A.I.T. Report of the Alabama of Wildlife and Freshwater Fisheries Division.",
+            "anglerCertificationsInfo3": "In addition, a Black Bass Grand Slam plaque will be presented to any angler who is recognized for catching all four species of black bass included in this program. Recognition for each of the species may come from the Master Angler level, the Trophy Angler level, or any combination of the two.",
+            "anglerCertificationsApplication": "https://www.outdooralabama.com/sites/default/files/fishing/Freshwater%20Fishing/Master%20Trophy%20Angler%20Recognition%2020180223.pdf",
+            "bigFishCatchStatsHeader": "Big Fish Catch Statistics",
+            "bigFishCatchStatsInfo1": "Catch statistics will be used to document angling trends and seasonal techniques used to catch large sportfish from Alabama reservoirs. This information will provide anglers with answers to questions related to depth of water, lure and color choices, moon phase, habitat types, and even the time of day when trophy fish are caught. Anglers will also learn how these trends can change from season to season, from lake to lake, and even from species to species.",
+            "bigFishCatchStatsInfo2": "Big fish catch statistics will be reported on a statewide, seasonal, or lake by lake basis in the annual B.A.I.T. Report, and will be presented in as much detail as possible, depending upon the information provided.  However, specific locations of catches are not required. The catch statistics questionnaire is a part of the application.",
+
+         }
+    },
+
+    "Fishing Tips": {
+        "name": "Freshwater Fishing Tips",
+        "image": "",
+        "description": {
+            "fishingTipsContent": "Whether you want to access fishing tips, commemorate a first catch, or uncover useful statistics about youth engagement in the outdoors, click the link below!",
+            "fishingTipsLink": "https://www.outdooralabama.com/freshwater-fishing/fishing-tips"
+        }
+    },
+
+    "Courtesy Card": {
+        "name": "Fishing Courtesy Card",
+        "image": "",
+        "description": "https://www.outdooralabama.com/sites/default/files/fishing/Freshwater%20Fishing/fishingcourtesycard.pdf"
+    },
+
+    "Contacts": {
+        "name": "Contacts - Freshwater Fishing",
+        "image": "",
+        "description": "https://www.outdooralabama.com/freshwater-fishing/fisheries-section-technical-staff"
+    },
+
+    "License Plate": {
+        "name": "License Plate",
+        "image": "",
+        "description": {
+            "licensePlateContent1": "The Freshwater Fishing distinctive license plate is now available. This attractive license plate depicts a largemouth bass, the state’s official freshwater fish, and has up to six spaces for optional personalization.",
+            "licensePlateContent2": "The cost for the new license plate is $50 annually. Proceeds from the sale of the license plate will support habitat enhancement, aquatic wildlife species protection and restoration, aquatic education, bass genetic research, sport fish disease research and sport fish stockings.",
+            "licensePlateContent3": "Join the effort to fund aquatic wildlife management and protection by acquiring a Freshwater Fishing distinctive license plate for your vehicle. If you have any questions regarding the license plate, please contact the Fisheries Section office at (334) 242-3471."
+        }
     }
+    
+
+
+
+    
+
 
 
 
