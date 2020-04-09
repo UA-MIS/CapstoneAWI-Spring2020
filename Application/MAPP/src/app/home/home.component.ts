@@ -115,11 +115,43 @@ export class HomeComponent implements OnInit {
                         let buoyDescription: string = '';
 
                         if (this.buoyData[i].windDirection != 'MM') {
-                            windDirection = this.buoyData[i].windDirection + '\n';
+                            if (this.buoyData[i].windDirection > 11.25 && this.buoyData[i].windDirection <= 33.75) {
+                                windDirection = "NNE" + '\n';
+                            } else if (this.buoyData[i].windDirection > 33.75 && this.buoyData[i].windDirection < 56.25) {
+                                windDirection = "ENE" + '\n';
+                            } else if (this.buoyData[i].windDirection > 56.25 && this.buoyData[i].windDirection < 78.75) {
+                                windDirection = "E" + '\n';
+                            } else if (this.buoyData[i].windDirection > 78.75 && this.buoyData[i].windDirection < 101.25) {
+                                windDirection = "ESE" + '\n';
+                            } else if (this.buoyData[i].windDirection > 101.25 && this.buoyData[i].windDirection < 123.75) {
+                                windDirection = "ESE" + '\n';
+                            } else if (this.buoyData[i].windDirection > 123.75 && this.buoyData[i].windDirection < 146.25) {
+                                windDirection = "SE" + '\n';
+                            } else if (this.buoyData[i].windDirection > 146.25 && this.buoyData[i].windDirection < 168.75) {
+                                windDirection = "SSE" + '\n';
+                            } else if (this.buoyData[i].windDirection > 168.75 && this.buoyData[i].windDirection < 191.25) {
+                                windDirection = "S" + '\n';
+                            } else if (this.buoyData[i].windDirection > 191.25 && this.buoyData[i].windDirection < 213.75) {
+                                windDirection = "SSW" + '\n';
+                            } else if (this.buoyData[i].windDirection > 213.75 && this.buoyData[i].windDirection < 236.25) {
+                                windDirection = "SW" + '\n';
+                            } else if (this.buoyData[i].windDirection > 236.25 && this.buoyData[i].windDirection < 258.75) {
+                                windDirection = "WSW" + '\n';
+                            } else if (this.buoyData[i].windDirection > 258.75 && this.buoyData[i].windDirection < 281.25) {
+                                windDirection = "W" + '\n';
+                            } else if (this.buoyData[i].windDirection > 281.25 && this.buoyData[i].windDirection < 303.75) {
+                                windDirection = "WNW" + '\n';
+                            } else if (this.buoyData[i].windDirection > 303.75 && this.buoyData[i].windDirection < 326.25) {
+                                windDirection = "NW" + '\n';
+                            } else if (this.buoyData[i].windDirection > 326.25 && this.buoyData[i].windDirection < 348.75) {
+                                windDirection = "NNW" + '\n';
+                            } else {
+                                windDirection = "N" + '\n';
+                            }
                         } else {
                             windDirection = '\n';
                         }
-                        if (this.buoyData[i].windSpeed != 'MM') {
+                        if (this.buoyData[i].windSpeed != 'MM' && this.buoyData[i].windSpeed != '0') {
                             buoyDescription = buoyDescription + "Wind: " + this.buoyData[i].windSpeed + " m/s " + windDirection;
                         }
                         if (this.buoyData[i].gustDirection) {
@@ -136,13 +168,13 @@ export class HomeComponent implements OnInit {
                             waveDirection = '\n';
                         }
                         if (this.buoyData[i].waveHeight != 'MM') {
-                            buoyDescription = buoyDescription + "Waves: " + this.buoyData[i].waveHeight + " " + waveDirection;
+                            buoyDescription = buoyDescription + "Waves: " + this.buoyData[i].waveHeight + " meters " + waveDirection;
                         }
                         if (this.buoyData[i].airTemperature != 'MM') {
-                            buoyDescription = buoyDescription + "Air Temperature: " + this.buoyData[i].airTemperature + '\n';
+                            buoyDescription = buoyDescription + "Air Temperature: " + this.buoyData[i].airTemperature +"° C" + '\n';
                         }
                         if (this.buoyData[i].waterTemperature != 'MM') {
-                            buoyDescription = buoyDescription + "Water Temperature: " + this.buoyData[i].waterTemperature + '\n';
+                            buoyDescription = buoyDescription + "Water Temperature: " + this.buoyData[i].waterTemperature + "° C"  +'\n';
                         }
 
                         
