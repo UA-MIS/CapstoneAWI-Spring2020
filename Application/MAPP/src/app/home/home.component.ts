@@ -5,6 +5,8 @@ import { map } from "rxjs/operators";
 import { MapboxMarker, MapboxViewApi } from "nativescript-mapbox";
 import { Observable } from 'rxjs';
 import { registerElement } from "nativescript-angular/element-registry";
+import { ModalDialogHost } from "nativescript-angular";
+import * as dialogs from "tns-core-modules/ui/dialogs";
 
 registerElement("Mapbox", () => require("nativescript-mapbox").MapboxView);
 
@@ -18,7 +20,6 @@ export class HomeComponent implements OnInit {
     items: Array<DataItem>;
     buoyData;
     locationData;
-
     mapbox: MapboxViewApi
 
     constructor(private _itemService: DataService, private buoyService: BuoyService) { }
@@ -178,6 +179,7 @@ export class HomeComponent implements OnInit {
                         }
 
                         
+
                         // create temporary variable to hold marker
                         var markerZ = <MapboxMarker>{
                             id: i,
@@ -187,10 +189,15 @@ export class HomeComponent implements OnInit {
                             iconPath: 'app/home/assets/marker12.png',
                             onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
                             onCalloutTap: marker =>
-                                alert("Buoy ID: '" + marker.title + "'" + '\n'
-                                    + "Longitude: '" + marker.lng + "'" + '\n'
-                                    + "Latitude: '" + marker.lat + "'" + '\n'
-                                    + buoyDescription)
+                                dialogs.alert({
+                                    title: "Buoy ID: " + marker.title,
+                                    message: "Longitude: '" + marker.lng + "'" + '\n'
+                                        + "Latitude: '" + marker.lat + "'" + '\n'
+                                        + buoyDescription,
+                                    okButtonText: "Okay"
+                                }).then(() => {
+                                    console.log("Dialog closed!");
+                                })
                         }
 
                         // add marker to mapview
