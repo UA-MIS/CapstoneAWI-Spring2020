@@ -16,4 +16,4 @@ import { RegulationsComponent } from "./regulations.component";
         NO_ERRORS_SCHEMA
     ]
 })
-export class SafetyModule { }
+export class RegulationsModule { }
