@@ -4,7 +4,6 @@ import * as data from '../../../regulationsData.json';
 @Component({
   selector: 'ns-regulations',
   templateUrl: './regulations.component.html',
-  styleUrls: ['./regulations.component.css']
 })
 export class RegulationsComponent implements OnInit {
 
