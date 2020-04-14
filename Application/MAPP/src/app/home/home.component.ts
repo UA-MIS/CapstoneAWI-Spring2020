@@ -178,8 +178,6 @@ export class HomeComponent implements OnInit {
                             buoyDescription = buoyDescription + "Water Temperature: " + this.buoyData[i].waterTemperature + "° C"  +'\n';
                         }
 
-                        
-
                         // create temporary variable to hold marker
                         var markerZ = <MapboxMarker>{
                             id: i,
