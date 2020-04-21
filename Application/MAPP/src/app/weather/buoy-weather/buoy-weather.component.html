@@ -1,3 +1,7 @@
 <FlexboxLayout class="roundedBox" height="30%" backgroundColor="lightgray" flexDirection="column" alignItems="flex-start">
-    <Label [text]="buoyData['buoyNumber']"></Label>
+    <StackLayout orientation="horizontal">
+        <Label class="buoyLabel" text="Buoy Number: "></Label>
+        <Label class="buoyNumber" [text]="buoyData['buoyNumber']"></Label>
+    </StackLayout>
+
 </FlexboxLayout>

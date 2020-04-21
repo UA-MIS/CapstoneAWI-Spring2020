@@ -2,3 +2,19 @@
     border-radius: 25px;
     margin-top: 30px;
 }
+
+.buoyLabel {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.buoyNumber {
+    font-size: 20px;
+    font-weight: bold;
+    color: #72a7fc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
