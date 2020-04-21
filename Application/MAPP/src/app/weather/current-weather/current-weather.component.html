@@ -14,8 +14,8 @@
         <Label class="windData" [text]="currentWeatherData?.wind.speed + ' mph'"></Label>
     </StackLayout>
     <StackLayout orientation="horizontal">
-        <Label class="windLabel" text="Wind temperature: "></Label>
-        <Label class="windData" [text]="convertKelvinToFahrenheit(currentWeatherData?.wind.deg) + '°'"></Label>
+        <Label class="windLabel" text="Wind direction: "></Label>
+        <Label class="windData" [text]="currentWeatherData?.wind.deg + '°'"></Label>
     </StackLayout>
 
     <StackLayout orientation="vertical" width="100%" class="weatherStatusContainer" *ngFor="let weather of currentWeatherData?.weather">

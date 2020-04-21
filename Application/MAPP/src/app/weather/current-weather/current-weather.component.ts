@@ -27,10 +27,7 @@ export class CurrentWeatherComponent implements OnInit {
       this.currentLocation.latitude, 
       this.currentLocation.longitude
     ).subscribe(
-      (data) => {
-        this.currentWeatherData = data;
-        console.log(data);
-      },
+      (data) => this.currentWeatherData = data,
       (err) => console.log(err)
     );
   }

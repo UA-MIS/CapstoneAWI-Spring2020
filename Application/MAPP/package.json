@@ -2,10 +2,10 @@
   "nativescript": {
     "id": "org.nativescript.MAPP",
     "tns-android": {
-      "version": "6.4.1"
+      "version": "6.5.0"
     },
     "tns-ios": {
-      "version": "6.4.0"
+      "version": "6.5.0"
     }
   },
   "description": "NativeScript Application",
@@ -19,32 +19,34 @@
     "@angular/cli": "9.0.2",
     "@angular/common": "~8.2.0",
     "@angular/compiler": "~8.2.0",
-    "@angular/core": "~8.2.0",
+    "@angular/core": "^8.2.14",
     "@angular/forms": "~8.2.0",
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
     "@arcgis/cli": "4.14.0",
-    "@nativescript/theme": "~2.3.0",
+    "@nativescript/theme": "^2.3.3",
+    "@types/jest": "^25.2.1",
     "atob": "^2.1.2",
     "nativescript-angular": "~8.21.0",
     "nativescript-geolocation": "^5.1.0",
+    "nativescript-mapbox": "4.3.1",
     "reflect-metadata": "~0.1.12",
-    "rxjs": "^6.4.0",
+    "rxjs": "^6.5.5",
     "serialize-javascript": "^3.0.0",
-    "tns-core-modules": "~6.4.0",
+    "tns-core-modules": "^6.5.1",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "~8.2.0",
+    "@angular/compiler-cli": "^8.2.14",
     "@nativescript/schematics": "^1.0.0",
-    "@ngtools/webpack": "^9.0.2",
-    "@schematics/angular": "^9.0.2",
-    "codelyzer": "~4.5.0",
-    "nativescript-dev-webpack": "~1.5.0",
+    "@ngtools/webpack": "^9.1.0",
+    "@schematics/angular": "^9.1.0",
+    "codelyzer": "^4.5.0",
+    "nativescript-dev-webpack": "^1.5.1",
     "node-sass": "^4.7.1",
     "tslint": "~5.19.0",
-    "typescript": "~3.5.3"
+    "typescript": "^3.5.3"
   },
   "gitHead": "d8bdf0799a219051f28f8abd7c258d2bf2fce6e1",
   "readme": "NativeScript Application"

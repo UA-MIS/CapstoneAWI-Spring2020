@@ -10,7 +10,5 @@ export class WeatherStatusComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    console.log(this.weatherStatusData);
-  }
+  ngOnInit(): void { }
 }

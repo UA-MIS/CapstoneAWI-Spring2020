@@ -1,15 +1,24 @@
 import { Component, OnInit } from "@angular/core";
 
+import { DataService, DataItem } from "../shared/data.service";
+
 @Component({
     selector: "Search",
     templateUrl: "./search.component.html"
 })
 export class SearchComponent implements OnInit {
-    constructor() {
-        // Use the constructor to inject services.
-    }
+    items: Array<DataItem>;
+
+    constructor(private _itemService: DataService) { }
 
     ngOnInit(): void {
-        // Use the "ngOnInit" handler to initialize data for the view.
+        this.items = this._itemService.getItems();
     }
 }
+
+/* exports.btnPressed = () => {
+    alert('Button pressed!');
+} */
+
+
+ 

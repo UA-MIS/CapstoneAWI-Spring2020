@@ -1,0 +1,105 @@
+{
+    "IOS Only Download": {
+        "IOSheader": "**Only avaliable for IOS**"
+    },
+
+    "Outdoor AL App Download": {
+        "outdoorAlApp1": "Download the Outdoor AL App for Game Check and Snapper Check",
+        "outdoorAlApp2": "https://apps.apple.com/us/app/outdoor-al/id1381147009"
+    },
+
+    "Reporting": {
+        "name": "Reporting Data",
+        "image": "",
+        "description": {
+            "mandatoryReportingHeader": "Snapper Check",
+            "mandRep1": "Species with MANDATORY reporting:",
+            "mandRep2": "1. Red Snapper",
+            "mandRep3": "Note: Only one report per vessel trip \n",
+            "voluntaryReportingHeader": "Species with Voluntary reporting:",
+            "volRep1": "1. Gray Triggerfish",
+            "volRep2": "2. Greater Amberjack",
+            "volRep3": "Note: Only one report per vessel trip",
+            "outdoorAlApp1": "Download the Outdoor AL App for Game Check and Snapper Check",
+            "outdoorAlApp2": "https://apps.apple.com/us/app/outdoor-al/id1381147009"
+        }
+    },
+
+    "ReportingFixed": {
+        "name": "Reporting Data",
+        "image": "./assets/image.png",
+        "header": "Snapper Check",
+        "content": [
+            "Species with mandatory reporting: \n1. Red Snapper\n\nNote: Only one report per vessel trip",
+            "Species with voluntary reporting: \n1. Gray Triggerfish \n2. Greater Amberjack \n\nNote: Only one report per vessel trip",
+            "Download the Outdoor AL App for Game Check and Snapper Check \nhttps://apps.apple.com/us/app/outdoor-al/id1381147009"
+        ]
+    }
+
+    "Licensing": {
+        "name": "Licensing Data",
+        "image": "",
+        "description": {
+            "saltLicenceHeader": "Saltwater Fishing Licenses",
+            "saltLicense1": "A Saltwater Fishing License is required for all persons fishing or possessing in fish in saltwater areas of Alabama.",
+            "saltLicense2": "Click here to purchase a Saltwater Fishing License",
+            "saltLicense3": "https://www.outdooralabama.com/licenses/saltwater-recreational-licenses",
+            "freshLicenseHeader": "Freshwater Fishing Licenses",
+            "freshLicense1": "To support fish management and aquatic resources, purchase a fishing license.",
+            "freshLicense2": "Click here to purchase a Freshwater Fishing License",
+            "freshLicense3": "https://www.outdooralabama.com/licenses/freshwater-fishing-licenses"          
+        }
+    },
+
+    "Saltwater Fishing": {
+        "name": "Saltwater Recreational Size & Creel Limits",
+        "image": "",
+        "description": {
+            "saltFishingHeader": "Saltwater Recreational Size & Creel Limits",
+            "saltFishingSubheader1": "Click Below to go to Alabama recreational fishing document.",
+            "saltfish1": "Saltwater Recreational Size & Creel Limits Document",
+            "saltfish1Doc": "https://www.outdooralabama.com/sites/default/files/PDF%20documents/Creel%20Limits%20B&W%20for%20printing.pdf",
+            "saltFishingSubheader2": "Click Below to go to 2020 Alabama Marine Information Calendar",
+            "saltfish2": "2020 Alabama Marine Information Calendar",
+            "saltfish2Cal": "https://www.outdooralabama.com/sites/default/files/fishing/Saltwater/2020%20MRD%20Calendar.pdf",
+            "saltfishSubheader3": "Saltwater Contacts",
+            "saltfish3": "Click here to go to the Saltwater Contacts page",
+            "saltfish3pagelink": "https://www.outdooralabama.com/saltwater-fishing/saltwater-contacts",
+            "saltHookRequirementsHeader": "Hook Requirements",
+            "saltHook1": "Anglers fishing for retaining, possessing, or landing gulf reef species (as defined in Rule 220-3-46) must use non-stainless steel circle hooks when using natural bait.",
+            "saltHook2": "Anglers fishing for retaining, possessing, or landing sharks must use non-offset, non-stainless steel circle hooks when using natural bait.",
+            "saltRegistryHeader": "Saltwater Registry",
+            "saltRegistryLink": "Please visit www.alabamainteractive.org/dcnr_hf_license/welcome.action?sp=OA2AI"
+        }
+    },
+
+    "Freshwater Fishing": {
+        "name": "Freshwater Fishing Data",
+        "image": "",
+        "description": {
+            "freshFishing1": "The link at the bottom of the page will give you the most current information of the following:",
+            "silvercarp": "Silver/Jumping carp urgency",
+            "wheretofish": "Where to Fish",
+            "learntofish": "Learn to Freshwater Fish",
+            "gameFish": "Freshwater game fish",
+            "nonGameFish": "Freshwater non-game fish",
+            "freshLimits": "Freshwater fishing creel and size limits",
+            "freshReporting": "Reporting freshwater fish kills",
+            "aquaticPlants": "Aquatic plants of Alabama",
+            "nuisanceSpecies": "Aquatic Nuisance Species",
+            "pondManagement": "Pond Management",
+            "fisingStockings": "Public water fishing stockings",
+            "freshwaterFishingLicenses": "Licenses",
+            "records": "State Records/Angler Recognition",
+            "fishingTips": "Freshwater Fishing Tips",
+            "courtesyCard": "Fishing Courtesy Card",
+            "certificate": "First Fish Certificate",
+            "contacts": "Contacts - Freshwater Fishing",
+            "licensePlate": "Freshwater Fishing License Plate"
+
+        }
+    }
+
+
+
+}
