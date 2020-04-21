@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
     buoyData;
     locationData;
     mapbox: MapboxViewApi
-
+    document;
     constructor(private _itemService: DataService, private buoyService: BuoyService) { }
 
     ngOnInit(): void {
@@ -38,63 +38,16 @@ export class HomeComponent implements OnInit {
     onMapReady(args) {
         
         this.mapbox = args.map;
-        /*
-        this.mapbox.getUserLocation().then(
-            function (userLocation) {
-                alert("Current user location: " + userLocation.location.lat + ", " + userLocation.location.lng);
-                console.log("Current user speed: " + userLocation.speed);
-            }
-        )
         
-        this.mapbox.addMarkers([
-            <MapboxMarker>{
-                id: 1,
-                lat: 25,
-                lng: -90.5,
-                title: '15',
-                iconPath: 'app/home/assets/marker15.png',
-                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
-                onCalloutTap: marker => alert("please work")
-            },
-            <MapboxMarker>{
-                id: 1,
-                lat: 24.7,
-                lng: -90.1,
-                title: '20',
-                iconPath: 'app/home/assets/marker20.png',
-                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
-                onCalloutTap: marker => alert("please work")
-            },
-            <MapboxMarker>{
-                id: 1,
-                lat: 24.3,
-                lng: -89.8,
-                title: '8',
-                iconPath: 'app/home/assets/marker8.png',
-                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
-                onCalloutTap: marker => alert("please work")
-            },
-            <MapboxMarker>{
-                id: 1,
-                lat: 24,
-                lng: -89.5,
-                title: 'Test Marker',
-                iconPath: 'app/home/assets/blackMarker14px.png',
-                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
-                onCalloutTap: marker => alert("please work")
-            },
-            <MapboxMarker>{
-                id: 1,
-                lat: 23.5,
-                lng: -89,
-                title: '12',
-                iconPath: 'app/home/assets/marker12.png',
-                onTap: marker => console.log("Buoy ID: '" + marker.title + "'"),
-                onCalloutTap: marker => alert("please work")
-            },
-        ])
-        */
     }
+
+    myFunction() {
+    var element = document.getElementById("buoyButton");
+    element.classList.remove("greyButton");
+    element.classList.add("greyButtonSelected");
+    }
+
+    
 
     toggleBuoyMarkers() {
 

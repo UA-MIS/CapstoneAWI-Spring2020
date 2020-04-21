@@ -1,29 +1,37 @@
+<html>
+<body>
 <ActionBar>
     <Label text="Map"></Label>
 </ActionBar>
 
-<GridLayout rows="40, *" class="page">
+<GridLayout rows="40, *" class="page" font-size="0pt">
     
-    <GridLayout columns="*,*,*,*,auto,auto" column-gap="2.5" horizontalalignment="center" width="100%">
-        <Label id="buoyButton" col= "0" text="Buoys" textwrap="false" fontsize="12pt" textalignment="center"
-            style="background: rgb(151, 151, 151)" (tap)="toggleBuoyMarkers()">
-        </Label>
-        <Label col= "1" text="Waves" textwrap="false" fontsize="12pt" textalignment="center"
-            style="background: rgb(151, 151, 151)" (tap)="toggleWaves()">
-        </Label>
-        <Label col= "2" text="Wind" textwrap="false" fontsize="12pt" textalignment="center" 
-            style="background: rgb(151, 151, 151);" (tap)="toggleWind()">
-        </Label>
-        <Label col= "3" text="Reefs" textwrap="false" fontsize="12pt" textalignment="center" 
-            style="background: rgb(151, 151, 151);" (tap)="toggleReefs()">
-        </Label>
-        <Label col= "4" text="Temperature" textwrap="false" fontsize="12pt" textalignment="center"
-            style="background: rgb(151, 151, 151);" (tap)="toggleWaterTemp()">
-        </Label>
-        <Label col= "5" text="Chlorophyll" textwrap="false" fontsize="12pt" textalignment="center" 
-            style="background: rgb(151, 151, 151);" (tap)="toggleChlorophyll()">
-        </Label>
-    </GridLayout>
+    <FlexboxLayout class="FlexboxLayout" flexWrap="nowrap" width="100%" font-size="0pt" background="gray">
+        <Button class="greyButton" width=15%
+            id="buoyButton" col= "0" text="Buoys" textwrap="false" fontsize="12pt" textalignment="center"
+            (tap)="toggleBuoyMarkers()" (onclick)="myFunction()">
+        </Button>
+        <Button class="greyButtonSelected" width=15%
+            col= "1" text="Waves" textwrap="false" fontsize="12pt" textalignment="center"
+            (tap)="toggleWaves()">
+        </Button>
+        <Button class="greyButton" width=15%
+            col= "2" text="Wind" textwrap="false" fontsize="12pt" textalignment="center" 
+            (tap)="toggleWind()">
+        </Button>
+        <Button class="greyButton" width=15% id="reefButton"
+            col= "3" text="Reefs" textwrap="false" fontsize="12pt" textalignment="center" 
+            (tap)="myFunction()">
+        </Button>
+        <Button class="greyButton" width=20%
+            col= "4" text="Surface Temp" textwrap="true" fontsize="12pt" textalignment="center"
+            (tap)="toggleWaterTemp()">
+        </Button>
+        <Button class="greyButton" width=20%
+            col= "5" text="Chlorophyll" textwrap="true" fontsize="12pt" textalignment="center" 
+            (tap)="toggleChlorophyll()">
+        </Button>
+    </FlexboxLayout>
 
     <ContentView row="1" height="100%" width="100%">
         <Mapbox
@@ -39,3 +47,5 @@
     </ContentView>
 
 </GridLayout>
+</body>
+</html>
