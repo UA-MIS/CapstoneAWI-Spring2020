@@ -3,6 +3,9 @@
     <Label [text]="item.name"></Label>
 </ActionBar>
 
-<GridLayout>
-    <Label class="m-10 h3" verticalAlignment="top" [text]="item.description" textWrap="true"></Label>
-</GridLayout>
+<ScrollView>
+    <StackLayout>
+        <Image src="https://www.boatus.org/assets/img/fb-og/boating-safety/jacket-types.jpg" stretch="aspectFit"></Image>
+        <Label class="m-10 h3" verticalAlignment="top" [text]="item.description" textWrap="true"></Label>
+    </StackLayout>
+</ScrollView>
