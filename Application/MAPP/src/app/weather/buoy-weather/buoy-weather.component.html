@@ -3,5 +3,20 @@
         <Label class="buoyLabel" text="Buoy Number: "></Label>
         <Label class="buoyNumber" [text]="buoyData['buoyNumber']"></Label>
     </StackLayout>
-
+    <StackLayout orientation="horizontal">
+        <Label class="data margin" text="Latitude: "></Label>
+        <Label class="data" [text]="buoyData['latitude']"></Label>
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+        <Label class="data" text="Longitude: "></Label>
+        <Label class="data" [text]="buoyData['longitude']"></Label>
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+        <Label class="data" text="Air Temperature: "></Label>
+        <Label class="data" [text]="buoyData['airTemperature']"></Label>
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+        <Label class="data" text="Longitude: "></Label>
+        <Label class="data" [text]="buoyData['waterTemperature']"></Label>
+    </StackLayout>
 </FlexboxLayout>
