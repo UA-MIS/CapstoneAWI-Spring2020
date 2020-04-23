@@ -23,6 +23,8 @@ export class HomeComponent implements OnInit {
     locationData;
     mapbox: MapboxViewApi
     document;
+    showMarkers: boolean;
+
     constructor(private _itemService: DataService, private buoyService: BuoyService) { }
 
     ngOnInit(): void {
@@ -30,6 +32,8 @@ export class HomeComponent implements OnInit {
         this.buoyService.getBuoyData().subscribe(d => {
             this.buoyData = d;
         });
+        
+
         
         /*
         this.items = this._itemService.getItems();
@@ -39,20 +43,17 @@ export class HomeComponent implements OnInit {
     onMapReady(args) {
         
         this.mapbox = args.map;
+        this.showMarkers = false;
         
     }
 
-    myFunction() {
-    var element = document.getElementById("buoyButton");
-    element.classList.remove("greyButton");
-    element.classList.add("greyButtonSelected");
-    }
-
-    
-
     toggleBuoyMarkers() {
 
-            this.buoyService.getBuoyData().subscribe(el => {
+            if (this.showMarkers == false) {
+            
+                this.showMarkers = true;
+
+                this.buoyService.getBuoyData().subscribe(el => {
                 //pull array of buoys
                 this.buoyData = el;
                 var buoyCount = (this.buoyData.length)-1;
@@ -158,29 +159,42 @@ export class HomeComponent implements OnInit {
                         ])
                     }
                 }
-            });
+            }
+        );}
+        else {
+            console.log("markers already showing");
+                this.mapbox.removeMarkers();
+                this.showMarkers = false;
+            console.log("not anymore lol");
+        }
     }
 
     toggleWaves() {
         this.mapbox.removeMarkers();
+        this.showMarkers = false;
     }
 
     toggleWind() {
         this.mapbox.removeMarkers();
+        this.showMarkers = false;
     }
 
     toggleReefs() {
         this.mapbox.removeMarkers();
+        this.showMarkers = false;
     }
 
     toggleWaterTemp() {
         this.mapbox.removeMarkers();
+        this.showMarkers = false;
     }
 
     toggleChlorophyll() {
         this.mapbox.removeMarkers();
+        this.showMarkers = false;
     }
     clearMap() {
         this.mapbox.removeMarkers();
+        this.showMarkers = false;
     }
 }

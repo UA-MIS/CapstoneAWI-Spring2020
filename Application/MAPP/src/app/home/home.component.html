@@ -9,27 +9,38 @@
     <FlexboxLayout class="FlexboxLayout" flexWrap="nowrap" width="100%" font-size="0pt" background="gray">
         <Button class="greyButton" width=15%
             id="buoyButton" col= "0" text="Buoys" textwrap="false" fontsize="12pt" textalignment="center"
-            (tap)="toggleBuoyMarkers()" (onclick)="myFunction()">
+            (tap)="toggleBuoyMarkers()" (onclick)="myFunction()"
+            (tap)="status1=!status1"  
+            [ngClass]="status1 ? 'greyButtonSelected' : 'greyButton'">>
         </Button>
-        <Button class="greyButtonSelected" width=15%
+        <Button class="greyButton" width=15%
             col= "1" text="Waves" textwrap="false" fontsize="12pt" textalignment="center"
-            (tap)="toggleWaves()">
+            (tap)="toggleWaves()"
+            (tap)="status2=!status2"  
+            [ngClass]="status2 ? 'greyButtonSelected' : 'greyButton'">>
         </Button>
         <Button class="greyButton" width=15%
             col= "2" text="Wind" textwrap="false" fontsize="12pt" textalignment="center" 
-            (tap)="toggleWind()">
+            (tap)="toggleWind()"
+            (tap)="status3=!status3"  
+            [ngClass]="status3 ? 'greyButtonSelected' : 'greyButton'">>
         </Button>
-        <Button class="greyButton" width=15% id="reefButton"
-            col= "3" text="Reefs" textwrap="false" fontsize="12pt" textalignment="center" 
-            (tap)="myFunction()">
+        <Button width=15% id="reefButton"
+            col= "3" text="Reefs" textwrap="false" fontsize="12pt" textalignment="center"
+            (tap)="status4=!status4"  
+            [ngClass]="status4 ? 'greyButtonSelected' : 'greyButton'">
         </Button>
         <Button class="greyButton" width=20%
             col= "4" text="Surface Temp" textwrap="true" fontsize="12pt" textalignment="center"
-            (tap)="toggleWaterTemp()">
+            (tap)="toggleWaterTemp()"
+            (tap)="status5=!status5"  
+            [ngClass]="status5 ? 'greyButtonSelected' : 'greyButton'">>
         </Button>
         <Button class="greyButton" width=20%
             col= "5" text="Chlorophyll" textwrap="true" fontsize="12pt" textalignment="center" 
-            (tap)="toggleChlorophyll()">
+            (tap)="toggleChlorophyll()"
+            (tap)="status6=!status6"  
+            [ngClass]="status6 ? 'greyButtonSelected' : 'greyButton'">>
         </Button>
     </FlexboxLayout>
 
