@@ -10,8 +10,6 @@ import * as dialogs from "tns-core-modules/ui/dialogs";
 
 registerElement("Mapbox", () => require("nativescript-mapbox").MapboxView);
 
-import { registerElement } from "nativescript-angular/element-registry";
-registerElement("Mapbox", () => require("nativescript-mapbox").MapboxView);
 
 @Component({
     selector: "Home",
