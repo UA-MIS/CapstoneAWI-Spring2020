@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
     locationData;
     mapbox: MapboxViewApi
     document;
-    showMarkers: boolean;
+    showBuoys: boolean;
 
     constructor(private _itemService: DataService, private buoyService: BuoyService) { }
 
@@ -43,15 +43,15 @@ export class HomeComponent implements OnInit {
     onMapReady(args) {
         
         this.mapbox = args.map;
-        this.showMarkers = false;
+        this.showBuoys = false;
         
     }
 
     toggleBuoyMarkers() {
 
-            if (this.showMarkers == false) {
+            if (this.showBuoys == false) {
             
-                this.showMarkers = true;
+                this.showBuoys = true;
 
                 this.buoyService.getBuoyData().subscribe(el => {
                 //pull array of buoys
@@ -164,37 +164,25 @@ export class HomeComponent implements OnInit {
         else {
             console.log("markers already showing");
                 this.mapbox.removeMarkers();
-                this.showMarkers = false;
+                this.showBuoys = false;
             console.log("not anymore lol");
         }
     }
 
     toggleWaves() {
-        this.mapbox.removeMarkers();
-        this.showMarkers = false;
     }
 
     toggleWind() {
-        this.mapbox.removeMarkers();
-        this.showMarkers = false;
     }
 
     toggleReefs() {
-        this.mapbox.removeMarkers();
-        this.showMarkers = false;
     }
 
     toggleWaterTemp() {
-        this.mapbox.removeMarkers();
-        this.showMarkers = false;
     }
 
     toggleChlorophyll() {
-        this.mapbox.removeMarkers();
-        this.showMarkers = false;
     }
     clearMap() {
-        this.mapbox.removeMarkers();
-        this.showMarkers = false;
     }
 }
