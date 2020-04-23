@@ -3,5 +3,9 @@
   "android": {
     "v8Flags": "--expose_gc",
     "markingMode": "none"
+  },
+  "dependencies": {
+    "nativescript-geolocation": "^5.1.0",
+    "angular-cli": "^1.0.0-beta.28.3"
   }
 }

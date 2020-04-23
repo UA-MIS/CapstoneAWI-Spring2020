@@ -1,20 +1,51 @@
+<html>
+<body>
 <ActionBar>
     <Label text="Map"></Label>
 </ActionBar>
 
-<ContentView height="100%" width="100%">
-    <Mapbox
-        accessToken="sk.eyJ1IjoicGptYXh3ZWxsMSIsImEiOiJjazcyODk1eTAwZGxrM2RtYmEycnh5Mm1mIn0.fQPB_cPB35ohxZxM-nYarA"
-        mapStyle="mapbox://styles/pjmaxwell1/ck72mixwr14m41ip9xnbigqs5"
-        delay="500"
-        latitude="24.5"
-        longitude="-90"
-        hideCompass="true"
-        zoomLevel="3.5"
-        showUserLocation="false"
-        disableZoom="false"
-        disableRotation="false"
-        disableScroll="false"
-        disableTilt="false">
-    </Mapbox>
-  </ContentView>
+<GridLayout rows="40, *" class="page" font-size="0pt">
+    
+    <FlexboxLayout class="FlexboxLayout" flexWrap="nowrap" width="100%" font-size="0pt" background="gray">
+        <Button class="greyButton" width=15%
+            id="buoyButton" col= "0" text="Buoys" textwrap="false" fontsize="12pt" textalignment="center"
+            (tap)="toggleBuoyMarkers()" (onclick)="myFunction()">
+        </Button>
+        <Button class="greyButtonSelected" width=15%
+            col= "1" text="Waves" textwrap="false" fontsize="12pt" textalignment="center"
+            (tap)="toggleWaves()">
+        </Button>
+        <Button class="greyButton" width=15%
+            col= "2" text="Wind" textwrap="false" fontsize="12pt" textalignment="center" 
+            (tap)="toggleWind()">
+        </Button>
+        <Button class="greyButton" width=15% id="reefButton"
+            col= "3" text="Reefs" textwrap="false" fontsize="12pt" textalignment="center" 
+            (tap)="myFunction()">
+        </Button>
+        <Button class="greyButton" width=20%
+            col= "4" text="Surface Temp" textwrap="true" fontsize="12pt" textalignment="center"
+            (tap)="toggleWaterTemp()">
+        </Button>
+        <Button class="greyButton" width=20%
+            col= "5" text="Chlorophyll" textwrap="true" fontsize="12pt" textalignment="center" 
+            (tap)="toggleChlorophyll()">
+        </Button>
+    </FlexboxLayout>
+
+    <ContentView row="1" height="100%" width="100%">
+        <Mapbox
+            accessToken="sk.eyJ1IjoiYXdpbWFwcCIsImEiOiJjazkwMWxtamEwMDBhM2hwdXF5dmlkaTlpIn0.4we_OHFl1VMXDbpJ0tq48A"
+            mapStyle="mapbox://styles/awimapp/ck901qzms0xwq1iqgdg61jijj"
+            latitude="24.5" 
+            longitude="-90"
+            hideCompass="true" 
+            zoomLevel="3.5" 
+            showUserLocation="true" 
+            (mapReady)="onMapReady($event)">
+        </Mapbox>
+    </ContentView>
+
+</GridLayout>
+</body>
+</html>

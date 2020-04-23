@@ -4,6 +4,7 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
+import { SafetyComponent } from './safety/safety.component';
 
 @NgModule({
     bootstrap: [
@@ -15,7 +16,8 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
         NativeScriptHttpClientModule
     ],
     declarations: [
-        AppComponent
+        AppComponent,
+        SafetyComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA
