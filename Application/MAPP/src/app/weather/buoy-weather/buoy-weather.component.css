@@ -4,7 +4,7 @@
 }
 
 .buoyLabel {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: black;
     margin-left: 20px;
@@ -12,9 +12,19 @@
 }
 
 .buoyNumber {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #72a7fc;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.data {
+    font-size: 14px;
+    color: black;
+    margin-left: 20px;
 }
