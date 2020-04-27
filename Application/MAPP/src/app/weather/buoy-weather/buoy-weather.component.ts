@@ -19,5 +19,4 @@ export class BuoyWeatherComponent implements OnInit {
     });
   }
   
-
 }
