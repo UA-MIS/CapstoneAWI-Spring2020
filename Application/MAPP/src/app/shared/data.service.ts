@@ -23,6 +23,7 @@ export class DataService {
              + "All persons under eight (8) years of age, on any vessel, must, at all times, wear a U.S. Coast Guard approved personal flotation device that must be strapped, snapped, or zipped securely in place; except, that no personal flotation device should be required when inside an enclosed cabin or enclosed sleeping space. \n \n \n \n"
              + "CAUTION: \n \n" + "Personal flotation devices must be accessible and of the proper size. Those that are torn, rotted, and damaged, lose their approval. \n \n"
              + "CAUTION: \n \n" + "A type V personal flotation device is a PFD approved for restricted uses. Type V PFD's must be worn in open boats and when on the deck of larger boats in order to be classified as U.S. Coast Guard approved. \n \n"
+             + "For more information, visit www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
              
             
         },
