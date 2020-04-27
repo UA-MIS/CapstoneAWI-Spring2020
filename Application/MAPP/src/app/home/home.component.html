@@ -25,8 +25,9 @@
         </Label>
     </GridLayout>
 
-    <ContentView row="1" height="100%" width="100%">
-        <Mapbox
+    <!-- Give the Content View 'MapContainer' ID and use ViewChild to access it in TypeScript-->
+    <ContentView row="1" height="100%" width="100%" id="MapContainer">
+        <!-- <Mapbox
             accessToken="sk.eyJ1IjoiYXdpbWFwcCIsImEiOiJjazkwMWxtamEwMDBhM2hwdXF5dmlkaTlpIn0.4we_OHFl1VMXDbpJ0tq48A"
             mapStyle="mapbox://styles/awimapp/ck901qzms0xwq1iqgdg61jijj"
             latitude="24.5" 
@@ -35,7 +36,7 @@
             zoomLevel="3.5" 
             showUserLocation="true" 
             (mapReady)="onMapReady($event)">
-        </Mapbox>
+        </Mapbox> -->
     </ContentView>
 
 </GridLayout>
