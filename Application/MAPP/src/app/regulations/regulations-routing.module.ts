@@ -1,16 +1,15 @@
 import { NgModule } from "@angular/core";
 import { Routes } from "@angular/router";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
-import { SafetyComponent } from "./safety.component";
-import { ItemDetailComponent } from "../safety/item-detail/item-detail.component";
+
+import { RegulationsComponent } from "./regulations.component";
 
 const routes: Routes = [
-    { path: "default", component: SafetyComponent },
-    { path: "item/:id", component: ItemDetailComponent }
+    { path: "default", component: RegulationsComponent }
 ];
 
 @NgModule({
     imports: [NativeScriptRouterModule.forChild(routes)],
     exports: [NativeScriptRouterModule]
 })
-export class SafetyRoutingModule { }
+export class RegulationsRoutingModule { }

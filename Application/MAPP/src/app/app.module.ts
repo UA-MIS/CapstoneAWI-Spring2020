@@ -5,6 +5,9 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 import { SafetyComponent } from './safety/safety.component';
+import { SafetyModule } from './safety/safety.module'
+import { ItemDetailComponent } from "./safety/item-detail/item-detail.component";
+
 
 @NgModule({
     bootstrap: [
@@ -13,11 +16,12 @@ import { SafetyComponent } from './safety/safety.component';
     imports: [
         NativeScriptModule,
         AppRoutingModule,
-        NativeScriptHttpClientModule
+        NativeScriptHttpClientModule,
+        SafetyModule
     ],
     declarations: [
-        AppComponent,
-        SafetyComponent
+        AppComponent
+        //ItemDetailComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA

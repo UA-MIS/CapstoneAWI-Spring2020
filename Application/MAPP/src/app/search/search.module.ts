@@ -6,6 +6,7 @@ import { SearchComponent } from "./search.component";
 //import { ItemDetailComponent } from "c:/Users/shine/Documents/GitHub/CapstoneAWI/Application/MAPP/src/app/home/item-detail/item-detail.component";
 
 
+
 @NgModule({
     imports: [
         NativeScriptCommonModule,
