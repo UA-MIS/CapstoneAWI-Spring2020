@@ -7,11 +7,7 @@ const routes: Routes = [
     {
         path: "",
 <<<<<<< HEAD
-<<<<<<< HEAD
         redirectTo: "/(homeTab:home/default//browseTab:browse/default//safetyTab:safety/default)",
-=======
-        redirectTo: "/(homeTab:home/default//browseTab:browse/default//searchTab:search/default//regulationsTab:regulations/default)",
->>>>>>> parent of 9b8ac2c... Adding images to safety
 =======
         redirectTo: "/(homeTab:home/default//browseTab:browse/default//searchTab:search/default//regulationsTab:regulations/default)",
 >>>>>>> parent of 9b8ac2c... Adding images to safety
