@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { RouterExtensions } from "nativescript-angular/router";
+import {openUrl} from "tns-core-modules/utils/utils";
 
 import { DataService, DataItem } from "../../shared/data.service";
 
@@ -25,4 +26,8 @@ export class ItemDetailComponent implements OnInit {
     onBackTap(): void {
         this._routerExtensions.back();
     }
+
+    onTap(args) {
+        openUrl(this.item.image);
+    }   
 }
