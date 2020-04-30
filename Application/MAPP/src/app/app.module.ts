@@ -16,8 +16,8 @@ import { SafetyComponent } from './safety/safety.component';
         NativeScriptHttpClientModule
     ],
     declarations: [
-        AppComponent,
-        SafetyComponent
+        AppComponent
+        //SafetyComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA

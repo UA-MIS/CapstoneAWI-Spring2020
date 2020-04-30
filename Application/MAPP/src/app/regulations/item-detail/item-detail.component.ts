@@ -1,8 +1,10 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { RouterExtensions } from "nativescript-angular/router";
-
+import {openUrl} from "tns-core-modules/utils/utils";
 import { DataService, DataItem } from "../../shared/data.service";
+import * as dialogs from "tns-core-modules/ui/dialogs";
+
 
 @Component({
     selector: "ItemDetail",
@@ -19,10 +21,22 @@ export class ItemDetailComponent implements OnInit {
 
     ngOnInit(): void {
         const id = +this._route.snapshot.params.id;
-        this.item = this._data.getItem(id);
+        this.item = this._data.getRegulation(id);
     }
 
     onBackTap(): void {
         this._routerExtensions.back();
     }
+    onTap(args) {
+        dialogs.confirm({
+            title: "This link is trying to leave the application",
+            message: "Are you sure you want to leave?",
+            okButtonText: "Yes",
+            cancelButtonText: "Cancel"
+        }).then(r => {
+            if(r == true){
+                openUrl(this.item.link);
+            }
+        });
+    }  
 }
