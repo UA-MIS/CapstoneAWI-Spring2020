@@ -3,6 +3,9 @@
     <Label [text]="item.name"></Label>
 </ActionBar>
 
-<GridLayout>
-    <Label class="m-10 h3" verticalAlignment="top" [text]="item.description" textWrap="true"></Label>
-</GridLayout>
+<ScrollView>
+    <StackLayout>
+        <Image [src]="item.image" stretch="aspectFit"></Image>
+        <Label class="m-10 h3" verticalAlignment="top" [text]="item.description" textWrap="true"></Label>
+    </StackLayout>
+</ScrollView>
