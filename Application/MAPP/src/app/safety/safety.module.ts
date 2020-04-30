@@ -1,21 +1,21 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptCommonModule } from "nativescript-angular/common";
 
-import { SearchRoutingModule } from "./search-routing.module";
-import { SearchComponent } from "./search.component";
+import { SafetyRoutingModule } from "./safety-routing.module";
+import { SafetyComponent } from "./safety.component";
 import { ItemDetailComponent } from "./item-detail/item-detail.component";
 
 @NgModule({
     imports: [
         NativeScriptCommonModule,
-        SearchRoutingModule
+        SafetyRoutingModule
     ],
     declarations: [
-        SearchComponent,
+        SafetyComponent,
         ItemDetailComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA
     ]
 })
-export class SearchModule { }
+export class SafetyModule { }

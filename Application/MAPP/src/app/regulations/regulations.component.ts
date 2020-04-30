@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as data from '../../../regulationsData.json';
+import { DataService, DataItem } from "../shared/data.service";
 
 @Component({
   selector: 'ns-regulations',
@@ -7,9 +7,12 @@ import * as data from '../../../regulationsData.json';
 })
 export class RegulationsComponent implements OnInit {
 
-  constructor() { }
+  items: Array<DataItem>;
 
-  ngOnInit(): void {
-  }
+    constructor(private _itemService: DataService) { }
+
+    ngOnInit(): void {
+        this.items = this._itemService.getRegulations();
+    }
 
 }

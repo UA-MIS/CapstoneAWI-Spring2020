@@ -126,11 +126,31 @@ export class DataService {
         }
     );
 
+    private regulations = new Array<DataItem>(
+        {
+            id: 1,
+            name: "Reporting Data",
+            image: "./assets/image.png",
+            description: "Species with mandatory reporting: \n1. Red Snapper\n\nNote: Only one report per vessel trip\n\n\n"+
+            "Species with voluntary reporting: \n1. Gray Triggerfish \n2. Greater Amberjack \n\nNote: Only one report per vessel trip\n\n\n"+
+            "Download the Outdoor AL App for Game Check and Snapper Check \nhttps://apps.apple.com/us/app/outdoor-al/id1381147009",
+            link:"https://apps.apple.com/us/app/outdoor-al/id1381147009"
+        }
+    );
+
     getItems(): Array<DataItem> {
         return this.items;
     }
 
     getItem(id: number): DataItem {
         return this.items.filter((item) => item.id === id)[0];
+    }
+
+    getRegulations(): Array<DataItem> {
+        return this.regulations;
+    }
+
+    getRegulation(id: number): DataItem {
+        return this.regulations.filter((regulation) => regulation.id === id)[0];
     }
 }

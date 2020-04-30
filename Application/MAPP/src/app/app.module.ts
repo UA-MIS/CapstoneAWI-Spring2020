@@ -14,8 +14,8 @@ import { SafetyComponent } from './safety/safety.component';
         AppRoutingModule
     ],
     declarations: [
-        AppComponent,
-        SafetyComponent
+        AppComponent
+        //SafetyComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA
