@@ -16,9 +16,5 @@ export class SearchComponent implements OnInit {
     }
 }
 
-/* exports.btnPressed = () => {
-    alert('Button pressed!');
-} */
-
 
  

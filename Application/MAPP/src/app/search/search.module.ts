@@ -3,8 +3,7 @@ import { NativeScriptCommonModule } from "nativescript-angular/common";
 
 import { SearchRoutingModule } from "./search-routing.module";
 import { SearchComponent } from "./search.component";
-
-
+import { ItemDetailComponent } from "./item-detail/item-detail.component";
 
 @NgModule({
     imports: [
@@ -12,7 +11,8 @@ import { SearchComponent } from "./search.component";
         SearchRoutingModule
     ],
     declarations: [
-        SearchComponent
+        SearchComponent,
+        ItemDetailComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA
