@@ -132,7 +132,8 @@ export class HomeComponent implements OnInit {
                         if (this.buoyData[i].waterTemperature != 'MM') {
                             buoyDescription = buoyDescription + "Water Temperature: " + this.buoyData[i].waterTemperature + "° C"  +'\n';
                         }
-
+                        
+                        console.log("Adding Markers");
                         // create temporary variable to hold marker
                         var markerZ = <MapboxMarker>{
                             id: i,
@@ -162,10 +163,9 @@ export class HomeComponent implements OnInit {
             }
         );}
         else {
-            console.log("markers already showing");
+            console.log("Removing Markers");
                 this.mapbox.removeMarkers();
                 this.showBuoys = false;
-            console.log("not anymore lol");
         }
     }
 
