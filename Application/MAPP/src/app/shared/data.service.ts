@@ -149,7 +149,115 @@ export class DataService {
             image: "",
             description: "To support fish management and aquatic resources, purchase a fishing license. \n\n\nClick here to purchase a Freshwater Fishing License \n",
             link: "https://www.outdooralabama.com/licenses/freshwater-fishing-licenses"
-        }
+        },
+        {
+            id: 4,
+            name: "Saltwater Recreational Size & Creel Limits",
+            image: "",
+            description: "Click Below to go to Alabama recreational fishing document.\n\n",
+            link: "https://www.outdooralabama.com/sites/default/files/PDF%20documents/Creel%20Limits%20B&W%20for%20printing.pdf"
+        },
+        {
+            id: 5,
+            name: "2020 Alabama Marine Information Calendar",
+            image: "",
+            description: "Click Below to go to 2020 Alabama Marine Information Calendar",
+            link: "https://www.outdooralabama.com/sites/default/files/fishing/Saltwater/2020%20MRD%20Calendar.pdf"
+        },
+        {
+            id: 6,
+            name: "Hook Requirements",
+            image: "",
+            description: "Anglers fishing for retaining, possessing, or landing gulf reef species (as defined in Rule 220-3-46) must use non-stainless steel circle hooks when using natural bait."
+            + "\n\nAnglers fishing for retaining, possessing, or landing sharks must use non-offset, non-stainless steel circle hooks when using natural bait.",
+            link: "https://www.outdooralabama.com/fishing/saltwater-fishing"
+        },
+        {
+            id: 7,
+            name: "Saltwater Registry",
+            image: "",
+            description: "FREE Saltwater Angler Registration is required for all residents 16 and over who take, catch, kill, or possess fish or attempt to catch, kill or possess fish in the saltwater jurisdiction of Alabama.  This includes residents who are not required to purchase an annual saltwater license such as those over the age of 64, have a lifetime saltwater license or fish exclusively on a pier that has purchased a pier fishing license."
+            + "\n\nStart by clicking on the link below:",
+            link: "https://www.alabamainteractive.org/dcnr_hf_license/welcome.action?sp=OA2AI"
+        },
+        {
+            id: 8,
+            name: "Saltwater Reminders & Regulation Changes",
+            image: "",
+            description: "****REMINDER****"
+            + "Alabama's 2020 private angler red snapper season opens Friday, May 22, 2020. The season is anticipated to last for 35 days and is scheduled to close on Sunday, July 19, 2020. Weekends only (Friday-Monday)."
+            + "\nYellowfin Tuna now has a creel limit of 3 per person."
+            + "\nRecreational harvest of gray triggerfish will open at 12:01 a.m. on March 1, 2020, and close at 12:01 a.m., local time, on May 2, 2020."
+            + "\nFlounder - possessing, taking, or attempting to take flounder harvested in the waters of Alabama for commercial or recreational purposes from November 1 through November 30 is prohibited."
+            + "\n\n\nRegulation Changes Beginning August 1, 2019"
+            + "\nCobia \n-36 inches fork length"
+            + "\nSpotted Sea Trout \n-Slot Length is 15 inches total length to 22 inches total length \n6 per person, per day with one over 22 inches total length allowed"
+            + "\nFlounder \n-14 inches total length (recreational and commercial) \nRecreational creel limit is 5 per person \nCommercial creel limit is 40 per person or 40 per vessel \nClosed season for flounder is November 1 through November 30 for both recreational and commercial anglers",
+            link: "https://www.outdooralabama.com/fishing/saltwater-fishing"
+        },
+        {
+            id: 9,
+            name: "Silver/Jumping Carp Urgency",
+            image: "",
+            description: "Invasive Asian Carp: the Feral Hog of Alabama's Waterways\n\n"
+            + "Asian carp have long been a problem in other parts of the country, but these fish are now working their way into Alabama. Because of the threat posed by Asian carp, the Fisheries Section of the Alabama Division of Wildlife and Freshwater Fisheries is working to protect the state’s aquatic resources from this invasive species."
+            + "\n\nFour species of Asian carp have been introduced in the U.S. Those species include silver carp, bighead carp, grass carp, and black carp. Of these species, silver and black carp are the greatest immediate threat to Alabama’s aquatic resources."
+            + "\n\nIn the same way feral hogs devastate habitat resources for native wildlife, silver carp have the potential to outcompete with other native species for food, including important game fish. Currently, the area of concern for silver carp in Alabama is the Tennessee and Tombigbee Rivers."
+            + "\n\nThese invasive fish can also harm boaters. Silver carp tend to jump out of the water when startled. A jumping carp strike can cause serious injury to anyone on board a vessel. This occurs most commonly in shallow water. If boaters experience jumping carp, they should slowly retreat from the area to avoid impact."
+            + "\n\nAlabama has joined forces with the Tennessee Wildlife Resources Agency and the Mississippi Department of Wildlife, Fisheries and Parks to work on silver and other Asian carp species management and control. A multiple-state group called the Mississippi Interstate Cooperative Resources Association has also been formed by the 28 states in the Mississippi River basin to collectively address this issue.",
+            link: "https://www.outdooralabama.com/silverjumping-carp-urgency"
+        },
+        {
+            id: 10,
+            name: "Freshwater Game Fish",
+            image: "",
+            description: "Black Bass - largemouth, smallmouth, spotted, Alabama, shoal, and those species formerly known as 'redeye' bass, which are now known separately as Coosa, Warrior, Cahaba, Tallapoosa, and Chattahoochee bass, based on their respective drainages. The Alabama bass was formerly known as spotted bass in the Mobile drainage."
+            + "\nBream (Sunfish) - rock bass, flier, shadow bass, warmouth, redbreast, bluegill, longear, and redear (shellcracker)."
+            + "\nCrappie - black and white crappie."
+            + "\nTemperate Bass - saltwater striped, white, and yellow bass and any hybrids thereof."
+            + "\nPickerel - chain, redfin, and grass pickerel."
+            + "\nPerch - sauger(jack), walleye, and yellow perch."
+            + "\nTrout - rainbow trout.",
+            link: "https://www.outdooralabama.com/freshwater-fishing/game-fish"
+        },
+        {
+            id: 11,
+            name: "Freshwater Non-Game Fish",
+            image: "",
+            description: "Drum \nCarp \nCatfish \nPaddlefish \nSucker \nBowfin \nGar \nMullet",
+            link: "https://www.outdooralabama.com/freshwater-fishing/commercial-or-non-game-fish"
+        },
+        {
+            id: 12,
+            name: "Aquatic Nuisance Species",
+            image: "",
+            description: "Only you can help prevent the spread of aquatic nuisance species."
+            + "\n-Remove any visible mud, plants, fish or animals before transporting equipment."
+            + "\n-Eliminate water from equipment before transporting."
+            + "\n-Clean and dry anything that came in contact with water (boats, trailers, equipment, clothing, dogs, etc.)."
+            + "\n-It is illegal to release bait or stock fish or other aquatic organisms in Alabama without a specific permit. Never release plants, fish or animals into a body of water unless they came out of that body of water.  Use aquatic baits already present in the waters.  Possession or distribution of some plants is illegal."
+            + "\n-Anglers and boaters need to do what they can to prevent the spread of nuisance aquatic species."
+            + "\n\nAsian Carp \nLearn more about the Asian Carp and why it is a nuisance species at the link below:",
+            link: "https://www.outdooralabama.com/freshwater-fishing/aquatic-nuisance-species"
+        },
+        {
+            id: 13,
+            name: "Aquatic Plants of Alabama",
+            image: "",
+            description: "Alabama Regulation 220-2-124: Alabama Nonindigenous Aquatic Plant Control Act"
+            + "\n\nFor  the purposes of enforcement of Sections 9-20-1 through 9-20-7, Code of Alabama 1975, enacted by Act No. 95-767, as the 'Alabama Nonindigenous Aquatic Plant Control Act,' the following list of all nonindigenous aquatic plants which are prohibited by Section 9-20-3 from being introduced or placed or caused to be introduced or placed into public waters of the state is established:"
+            + "\n\nAfrican elodea, alligatorweed, Brazilian elodea, curlyleaf pondweed, Eurasian watermilfoil, floating waterhyacinth, giant salvinia, hydrilla, hygrophila, limnophila, parrot-feather, purple loosestrife, rooted waterhyacinth, spinyleaf naiad, water-aloe, water lettuce, water chestnut, and water spinach"
+            + "\n\nAquatic plants that are illegal under federal law as of June 30, 2006, include: mosquito fern or water velvet (Azolla pinnata), Mediterranean clone of caulerpa (Caulerpa taxifolia), anchored waterhyacinth (Eichornia azurea), hydrilla (Hydrilla verticillato), Miramar weed (Hygrophila polysperma), water-spinach (Ipomoea aquatica), Lagarosiphon major, ambulia (Limnophila sessiliflora), Melaleuca quinquenervia, Monochoria hastata, Ottelia alismoides, arrowhead (Sagittaria sagittifola), giant Salvina (Salvinia auriculata, S. biloba, S. herzogii, and S. molesta), wetland nightshade (Solanum tampicense), exotic bur-reed (Sparganium erectum).",
+            link: "https://www.outdooralabama.com/freshwater-fishing/aquatic-plants-alabama"
+        },
+        {
+            id: 14,
+            name: "Contacts",
+            image: "",
+            description: "24-Hour Contact Number: (251) 476-1256"
+            + "\n\nIf you need to reach someone in the Administrative, Fisheries, or Enforcement section, please click the link below.",
+            link: "https://www.outdooralabama.com/saltwater-fishing/saltwater-contacts"
+        },
     );
 
     getItems(): Array<DataItem> {
