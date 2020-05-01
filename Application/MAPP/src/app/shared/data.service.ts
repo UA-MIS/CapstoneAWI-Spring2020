@@ -31,10 +31,10 @@ export class DataService {
         {
             id: 2,
             name: "Flame Arrestors",
-            image: "~/app/shared/Assets/Images/FlameArrestor.png",
+            image: "~/app/shared/Assets/Images/FlameArrestor.jpg",
             description: "Every motorboat using gasoline as fuel, except outboard motors, shall have the carburetor or carburetors of every engine therein equipped with a U.S."
             + "Coast Guard approved flame arrestor or backfire trap.",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         },
         {
             id: 3,
@@ -44,7 +44,7 @@ export class DataService {
             + "The shut-off switch shall be a lanyard-type and shall be attached to the person, clothing, or personal flotation device of the operator."
             + "It shall be installed so that when any removal of the operator from the normal operating station will result in the immediate shut-off of the engine. \n \n"
             + "Any person operating a personal watercraft that does not have self-circling capabilities must have a lanyard-type engine shut-off switch, which must be attached to the person, clothing, or personal flotation device of the operator.",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         },
         {
             id: 4,
@@ -63,7 +63,7 @@ export class DataService {
             + "- FIRST AID KITS should include a ready supply of essential medications you may need on a frequent basis. \n \n"
             + "- DRINKING WATER should be accompanied by a measuring device to carefully apportion it to maintain lifea nd morale. \n \n"
             + "- SUNSCREEN and DRAMAMINE can ease discomfort adrift. \n \n",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         },
         {
             id: 5,
@@ -74,12 +74,12 @@ export class DataService {
             + "- The Great Lakes \n"
             + "- Territorial Seas \n"
             + "- Waters which are two miles wide or wider and are connected to one of the above.",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         },
         {
             id: 6,
             name: "Fire Extinguishers",
-            image: "~/app/shared/Assets/Images/FireExtinguisher1.PNG",
+            image: "~/app/shared/Assets/Images/FireExtinguisher1.jpg",
             description: "All vessels, as herein designated, must be equipped with a serviceable U.S. Coast Guard approved fire extinguisher of the type and capacity indicated. \n \n"
             + "1. All inboard and inboard/outboard vessels, regardless of size, and all motor vessels having closed compartments wherein portable fuel tanks are stored or having permanentely"
             + "installed fuel tanks shall have a hand portable or semi-portable fire extinguisher using carbon dioxide (CO2), foam, or other chemical ingredients such as is commonly used for"
@@ -90,15 +90,15 @@ export class DataService {
             + "3. All motor vessels having closed or semi-closed cabins and any vessel with sleeping accommodations shall have a hand portable fire extinguisher or semi-portable fire extinguisher"
             + "using carbon dioxide (CO2), foam, or other chemical ingredients such as is commonly used for extinguishing fires. Such fire extinguisher shall be approved by the U.S. Coast Guard. \n \n \n"
             + "*Flammable liquids include gasoline, kersosene, oil and stove alcohol.",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         },
         {
             id: 7,
             name: "Diver's Flag",
-            image: "~/app/shared/Assets/Images/DiversFlags.PNG",
+            image: "~/app/shared/Assets/Images/DiversFlags.jpg",
             description: "The diver's flag will be at least 300 mm (12 inches) square, colored red with a white 500 mm (2 inches) stripe running diagonally from the top staff cornor to the bottom"
             + "fly corner. Boat owners will stay at least 30.5 meters (100 feet) away from the displayed flag.",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         },
         {
             id: 8,
@@ -107,22 +107,22 @@ export class DataService {
             description: "Lights \n \n \n" + "All vessels must be equipped with prescribed navigation lights when operated at night in accordance with the Boating Safety Laws. Operators of all vessels"
             + "must comply with the requirements for the type and use of lights when anchored or underway from sunset to sunrise. \n \n \n \n" + "Sound Devices \n \n \n" + "All vessels 4.9 meters (16 feet) or more"
             + "in length must have on board the proper signal device for use during nighttime operation or inclement weather where visibility is greatly reduced.",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         },
         {
             id: 9,
             name: "Visual Distress Signals",
-            image: "~/app/shared/Assets/Images/USCoastGuardApprovedVisualDistressSignals.PNG",
+            image: "~/app/shared/Assets/Images/USCoastGuardApprovedVisualDistressSignals.jpg",
             description: "Visual Distress Signals (VDSs) allow boat operators to signal for help in the event of an emergency. \n \n" + "VDSs are classified as day signals (visible in bright sunlight), night signals (visible at night)"
             + "or both day and night signals. \n \n" + "VDSs are either pyrotechnic (smoke and flames) or non-pyrotechnic (non-combustible).",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         },
         {
             id: 10,
             name: "Coast Guard Emergency Contact",
             image: "",
             description: "Seventh District Command Center Number: \n \n" + "(305)-415-6800",
-            link: "https://www.outdooralabama.com"
+            link: "https://www.alea.gov/dps/marine-patrol/boat-equipment-checklist-alabama"
         }
     );
 
