@@ -129,8 +129,8 @@ export class DataService {
     private regulations = new Array<DataItem>(
         {
             id: 1,
-            name: "Reporting Data",
-            image: "./assets/image.png",
+            name: "Species Reporting",
+            image: "~/app/shared/Assets/Images/redSnapper.jpg",
             description: "Species with mandatory reporting: \n1. Red Snapper\n\nNote: Only one report per vessel trip\n\n\n"+
             "Species with voluntary reporting: \n1. Gray Triggerfish \n2. Greater Amberjack \n\nNote: Only one report per vessel trip\n\n\n"+
             "Download the Outdoor AL App for Game Check and Snapper Check \nhttps://apps.apple.com/us/app/outdoor-al/id1381147009",
@@ -139,21 +139,21 @@ export class DataService {
         {
             id: 2,
             name: "Saltwater Fishing Licenses",
-            image: "",
+            image: "~/app/shared/Assets/Images/SaltwaterFishingLicenseMap.jpg",
             description: "A Saltwater Fishing License is required for all persons fishing or possessing in fish in saltwater areas of Alabama.\n\n\nClick here to purchase a Saltwater Fishing License",
             link: "https://www.outdooralabama.com/licenses/saltwater-recreational-licenses"
         },
         {
             id: 3,
             name: "Freshwater Fishing Licenses",
-            image: "",
+            image: "~/app/shared/Assets/Images/freshwaterLicensePlate.jpg",
             description: "To support fish management and aquatic resources, purchase a fishing license. \n\n\nClick here to purchase a Freshwater Fishing License \n",
             link: "https://www.outdooralabama.com/licenses/freshwater-fishing-licenses"
         },
         {
             id: 4,
             name: "Saltwater Recreational Size & Creel Limits",
-            image: "",
+            image: "~/app/shared/Assets/Images/SizeAndCreelLimit.jpg",
             description: "Click Below to go to Alabama recreational fishing document.\n\n",
             link: "https://www.outdooralabama.com/sites/default/files/PDF%20documents/Creel%20Limits%20B&W%20for%20printing.pdf"
         },
@@ -183,22 +183,22 @@ export class DataService {
         {
             id: 8,
             name: "Saltwater Reminders & Regulation Changes",
-            image: "",
+            image: "~/app/shared/Assets/Images/saltwaterSpottedSeaTrout.jpg",
             description: "****REMINDER****"
-            + "Alabama's 2020 private angler red snapper season opens Friday, May 22, 2020. The season is anticipated to last for 35 days and is scheduled to close on Sunday, July 19, 2020. Weekends only (Friday-Monday)."
-            + "\nYellowfin Tuna now has a creel limit of 3 per person."
-            + "\nRecreational harvest of gray triggerfish will open at 12:01 a.m. on March 1, 2020, and close at 12:01 a.m., local time, on May 2, 2020."
-            + "\nFlounder - possessing, taking, or attempting to take flounder harvested in the waters of Alabama for commercial or recreational purposes from November 1 through November 30 is prohibited."
+            + "\n\nAlabama's 2020 private angler red snapper season opens Friday, May 22, 2020. The season is anticipated to last for 35 days and is scheduled to close on Sunday, July 19, 2020. Weekends only (Friday-Monday)."
+            + "\n\nYellowfin Tuna now has a creel limit of 3 per person."
+            + "\n\nRecreational harvest of gray triggerfish will open at 12:01 a.m. on March 1, 2020, and close at 12:01 a.m., local time, on May 2, 2020."
+            + "\n\nFlounder - possessing, taking, or attempting to take flounder harvested in the waters of Alabama for commercial or recreational purposes from November 1 through November 30 is prohibited."
             + "\n\n\nRegulation Changes Beginning August 1, 2019"
-            + "\nCobia \n-36 inches fork length"
-            + "\nSpotted Sea Trout \n-Slot Length is 15 inches total length to 22 inches total length \n6 per person, per day with one over 22 inches total length allowed"
-            + "\nFlounder \n-14 inches total length (recreational and commercial) \nRecreational creel limit is 5 per person \nCommercial creel limit is 40 per person or 40 per vessel \nClosed season for flounder is November 1 through November 30 for both recreational and commercial anglers",
+            + "\n\nCobia \n-36 inches fork length"
+            + "\n\nSpotted Sea Trout \n-Slot Length is 15 inches total length to 22 inches total length \n6 per person, per day with one over 22 inches total length allowed"
+            + "\n\nFlounder \n-14 inches total length (recreational and commercial) \nRecreational creel limit is 5 per person \nCommercial creel limit is 40 per person or 40 per vessel \nClosed season for flounder is November 1 through November 30 for both recreational and commercial anglers",
             link: "https://www.outdooralabama.com/fishing/saltwater-fishing"
         },
         {
             id: 9,
             name: "Silver/Jumping Carp Urgency",
-            image: "",
+            image: "~/app/shared/Assets/Images/SilverCarp.jpg",
             description: "Invasive Asian Carp: the Feral Hog of Alabama's Waterways\n\n"
             + "Asian carp have long been a problem in other parts of the country, but these fish are now working their way into Alabama. Because of the threat posed by Asian carp, the Fisheries Section of the Alabama Division of Wildlife and Freshwater Fisheries is working to protect the state’s aquatic resources from this invasive species."
             + "\n\nFour species of Asian carp have been introduced in the U.S. Those species include silver carp, bighead carp, grass carp, and black carp. Of these species, silver and black carp are the greatest immediate threat to Alabama’s aquatic resources."
@@ -212,12 +212,12 @@ export class DataService {
             name: "Freshwater Game Fish",
             image: "",
             description: "Black Bass - largemouth, smallmouth, spotted, Alabama, shoal, and those species formerly known as 'redeye' bass, which are now known separately as Coosa, Warrior, Cahaba, Tallapoosa, and Chattahoochee bass, based on their respective drainages. The Alabama bass was formerly known as spotted bass in the Mobile drainage."
-            + "\nBream (Sunfish) - rock bass, flier, shadow bass, warmouth, redbreast, bluegill, longear, and redear (shellcracker)."
-            + "\nCrappie - black and white crappie."
-            + "\nTemperate Bass - saltwater striped, white, and yellow bass and any hybrids thereof."
-            + "\nPickerel - chain, redfin, and grass pickerel."
-            + "\nPerch - sauger(jack), walleye, and yellow perch."
-            + "\nTrout - rainbow trout.",
+            + "\n\nBream (Sunfish) - rock bass, flier, shadow bass, warmouth, redbreast, bluegill, longear, and redear (shellcracker)."
+            + "\n\nCrappie - black and white crappie."
+            + "\n\nTemperate Bass - saltwater striped, white, and yellow bass and any hybrids thereof."
+            + "\n\nPickerel - chain, redfin, and grass pickerel."
+            + "\n\nPerch - sauger(jack), walleye, and yellow perch."
+            + "\n\nTrout - rainbow trout.",
             link: "https://www.outdooralabama.com/freshwater-fishing/game-fish"
         },
         {
@@ -243,7 +243,7 @@ export class DataService {
         {
             id: 13,
             name: "Aquatic Plants of Alabama",
-            image: "",
+            image: "~/app/shared/Assets/Images/freshwaterAquaticPlants.jpg",
             description: "Alabama Regulation 220-2-124: Alabama Nonindigenous Aquatic Plant Control Act"
             + "\n\nFor  the purposes of enforcement of Sections 9-20-1 through 9-20-7, Code of Alabama 1975, enacted by Act No. 95-767, as the 'Alabama Nonindigenous Aquatic Plant Control Act,' the following list of all nonindigenous aquatic plants which are prohibited by Section 9-20-3 from being introduced or placed or caused to be introduced or placed into public waters of the state is established:"
             + "\n\nAfrican elodea, alligatorweed, Brazilian elodea, curlyleaf pondweed, Eurasian watermilfoil, floating waterhyacinth, giant salvinia, hydrilla, hygrophila, limnophila, parrot-feather, purple loosestrife, rooted waterhyacinth, spinyleaf naiad, water-aloe, water lettuce, water chestnut, and water spinach"
