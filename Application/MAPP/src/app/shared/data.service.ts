@@ -135,6 +135,20 @@ export class DataService {
             "Species with voluntary reporting: \n1. Gray Triggerfish \n2. Greater Amberjack \n\nNote: Only one report per vessel trip\n\n\n"+
             "Download the Outdoor AL App for Game Check and Snapper Check \nhttps://apps.apple.com/us/app/outdoor-al/id1381147009",
             link:"https://apps.apple.com/us/app/outdoor-al/id1381147009"
+        },
+        {
+            id: 2,
+            name: "Saltwater Fishing Licenses",
+            image: "",
+            description: "A Saltwater Fishing License is required for all persons fishing or possessing in fish in saltwater areas of Alabama.\n\n\nClick here to purchase a Saltwater Fishing License",
+            link: "https://www.outdooralabama.com/licenses/saltwater-recreational-licenses"
+        },
+        {
+            id: 3,
+            name: "Freshwater Fishing Licenses",
+            image: "",
+            description: "To support fish management and aquatic resources, purchase a fishing license. \n\n\nClick here to purchase a Freshwater Fishing License \n",
+            link: "https://www.outdooralabama.com/licenses/freshwater-fishing-licenses"
         }
     );
 
